@@ -1,0 +1,199 @@
+{
+  "_meta": {
+    "type": "srrx_fleet",
+    "note": "Read when fleet, coupler, or operational rule questions arise."
+  },
+  "fleet": {
+    "switchers": [
+      {
+        "num": "98",
+        "type": "GE 70-Ton",
+        "livery": "L&N",
+        "color": "black",
+        "dcc": "operational",
+        "address": "98",
+        "role": "Primary yard switcher and mine helper"
+      },
+      {
+        "num": "101",
+        "type": "GE 44-Ton",
+        "color": "red",
+        "dcc": "installed",
+        "issue": "Stalls forward - likely bent axle. Axle swap from No.98 planned as diagnostic. PENDING."
+      }
+    ],
+    "fleet_note": "There is NO 40-Ton GE. Data entry error. Exactly two switchers: No.98 and No.101. Jake to do global find/replace in AP handbook: 40-Ton -> 44-Ton everywhere including Appendix F.",
+    "road_locomotives": [
+      {
+        "id": "SP5017",
+        "type": "GP-30 (likely - pending underframe inspection; previously noted as SD40)",
+        "mfr": "Atlas",
+        "status": "DC candidate",
+        "role": "Primary road engine"
+      },
+      {
+        "id": "MoPac4637",
+        "type": "GE B23-7",
+        "mfr": "Bachmann",
+        "status": "DC candidate",
+        "role": "Interchange representative"
+      }
+    ],
+    "passenger_power": [
+      {
+        "id": "ATSFF9A215",
+        "type": "EMD F9A",
+        "mfr": "Bachmann",
+        "status": "DC candidate",
+        "notes": "Valley Flyer power. White gear risk."
+      },
+      {
+        "id": "ATSFF9B215",
+        "type": "EMD F9B",
+        "mfr": "Bachmann",
+        "status": "Dummy",
+        "notes": "Couples with F9A"
+      }
+    ],
+    "display": [
+      {
+        "id": "SP9725",
+        "type": "GP-60 inspired",
+        "mfr": "High Speed",
+        "notes": "Fixed couplers - display only"
+      }
+    ],
+    "project_assessment": [
+      {
+        "id": "ATSFF9parts",
+        "type": "EMD F9A",
+        "mfr": "Bachmann",
+        "notes": "Parts donor - missing rear coupler"
+      },
+      {
+        "id": "ATSF3500",
+        "type": "GP-30",
+        "notes": "Missing wheels and hood"
+      },
+      {
+        "id": "SCL6678",
+        "type": "GP-40",
+        "mfr": "Bachmann",
+        "notes": "Missing parts"
+      }
+    ],
+    "passenger_equipment": [
+      {
+        "id": "Obs2780",
+        "type": "observation car",
+        "couplers": "Rapido truck-mount",
+        "notes": "NO rear coupler - PERMANENT. Always PVJ end of Valley Flyer. F9A on Silver Ridge end."
+      },
+      {
+        "id": "Coach1919",
+        "type": "coach",
+        "couplers": "Rapido truck-mount",
+        "notes": "Plastic wheels - replacement pending"
+      }
+    ],
+    "freight_cars": [
+      {
+        "id": "BN95913",
+        "type": "ore hopper",
+        "run": "mine"
+      },
+      {
+        "id": "ThunderBay798",
+        "type": "ore hopper",
+        "run": "mine"
+      },
+      {
+        "id": "PRR262581",
+        "type": "hopper",
+        "run": "mine"
+      },
+      {
+        "id": "BO21022",
+        "type": "hopper",
+        "run": "mine"
+      },
+      {
+        "id": "MTLgondola",
+        "type": "gondola",
+        "mfr": "MTL",
+        "run": "River Run/Lumber",
+        "notes": "First car with MT truck-mount couplers installed"
+      },
+      {
+        "id": "Shell1245",
+        "type": "tank",
+        "run": "Scenic Run"
+      },
+      {
+        "id": "Dow14003",
+        "type": "tank",
+        "run": "Scenic Run"
+      },
+      {
+        "id": "Hooker69502",
+        "type": "tank",
+        "run": "Scenic Run"
+      },
+      {
+        "id": "PennSalt67927",
+        "type": "tank",
+        "run": "Scenic Run"
+      },
+      {
+        "id": "Burlington85117",
+        "type": "hopper",
+        "run": "interchange",
+        "personal": "Jake's great uncle was a Burlington Route employee"
+      },
+      {
+        "id": "Swift4244",
+        "type": "reefer",
+        "run": "interchange"
+      },
+      {
+        "id": "LV41033",
+        "type": "boxcar",
+        "run": "interchange"
+      },
+      {
+        "id": "PLE43221",
+        "type": "open hopper with coal load",
+        "mfr": "Bachmann Long Hauler",
+        "notes": "Load may be removable. Candidate for ore hopper conversion. Role TBD."
+      },
+      {
+        "id": "EL95909",
+        "type": "Russell Snow Plow",
+        "run": "MOW",
+        "notes": "EL=Erie Lackawanna. Stored at PVJ."
+      }
+    ],
+    "cabooses": [
+      {
+        "id": "ATSFcaboose1",
+        "status": "Keeper/operational candidate"
+      },
+      {
+        "id": "ATSFcaboose2",
+        "status": "Scenic conversion",
+        "notes": "Faded pink cupola (originally yellow, sun bleached). Broken stack. Two 7g weights inside for salvage. Planned repaint SRRX maroon/cream as gorge flagstop restaurant."
+      },
+      {
+        "id": "PRRcaboose",
+        "status": "Keeper/operational candidate"
+      }
+    ],
+    "coupler_status": "MT truck-mount: MTL gondola (1 confirmed). Rapido truck-mount: Obs2780, Coach1919. Unknown: most of fleet. Coupler identification project is active backlog item."
+  },
+  "operational_rules": {
+    "valley_flyer_obs": "Obs2780 has NO rear coupler - permanent constraint. Always PVJ end of Valley Flyer. F9A on Silver Ridge end.",
+    "freight_cycle": "Standard freight operating pattern is two-visit cycle across multiple train types.",
+    "helper_logic": "Helper engines cut away after mine ascents. Cutaway logic in handbook Section 7.",
+    "tone": "Practical shortline throughout. Not tourist railroad, not overly formal. Working railroad language."
+  }
+}

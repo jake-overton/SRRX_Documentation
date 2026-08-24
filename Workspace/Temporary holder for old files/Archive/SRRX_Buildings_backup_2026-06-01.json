@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "type": "srrx_buildings",
+    "note": "Read when town planning, building placement, or scenic layout questions arise."
+  },
+  "gorge_flagstop": {
+    "location_name_candidates": [
+      "Gorge Flagstop (current working name)",
+      "Gorge Junction",
+      "Canyon Stop"
+    ],
+    "location_decision": "TBD",
+    "restaurant_model": "Faded ATSF caboose #2 (pink cupola, originally yellow, sun bleached). Broken stack. Two 7g weights inside - salvage before conversion.",
+    "restaurant_plan": "Repaint SRRX maroon/cream. Convert to trackside restaurant on overgrown stub siding not connected to mainline. Trucks possibly removed. Ground cover around base.",
+    "restaurant_name_candidates": [
+      "Gorge-ous Grub (top candidate)",
+      "The Waycar",
+      "The Silver Rail",
+      "The Silver Spoon"
+    ],
+    "restaurant_decision": "TBD",
+    "picnic_tables": "3D designs acquired for Gorge-ous Grub scenic area"
+  },
+  "silver_ridge_town": {
+    "character": "Steamboat Springs CO analog. Genuine isolated mountain community, 3+ hours from major city. Railroad is essential infrastructure, not charming anachronism. Working people commute to mine, smelter, lumber. Tourism exists but identity is working residents, not visitors. Not a resort town. Naming convention: use family names, local geography, practical names - NOT Silver Ridge Everything.",
+    "civic": [
+      "Town Hall",
+      "Post Office",
+      "Combined Fire/Police Station",
+      "School",
+      "Elk River Valley Bank (fictional name; personal connection: modeled after Yampa Valley Bank in Steamboat Springs where son Cole works)",
+      "Federal Building (Chi-Chi's model repurposed - nondescript, on hill across tracks at southeast edge of layout. Intentionally sequestered - visible if you look, but draws no attention. Honors son Charlie at Palantir NYC)"
+    ],
+    "commercial": [
+      "General Store",
+      "Outfitter (camping/weekend gear - tourist economy)",
+      "Gas Station",
+      "Dew Drop Inn (diner/bar - N Scale Architects model; named after bar Jake's father went to after NY Giants games)",
+      "Brewery"
+    ],
+    "residential": [
+      "Rodessa (Sears Catalog home - PLA/resin kit)",
+      "Lorain (Sears Catalog home - PLA/resin kit)",
+      "Purita (Sears Catalog home - PLA/resin kit)"
+    ],
+    "depot": "N Scale Architects #10051 Converted Overton Coach Flag Stop Station. Overton = Jake's family surname. Mostly wood construction.",
+    "notes": "Street scene needed: storefront row, sidewalks, period signage. PVJ getting crowded so Silver Ridge absorbs civic/tourist buildings.",
+    "fauna": "Elk and moose both inhabit Elk River Valley. Moose favor riparian/willow habitat along the river bottom. Elk range open meadows and timber slopes. Bears present - implied by signage rather than figures. Scenic detail opportunities: moose figure near river on east leg, elk on upper slopes near Timberline/mine branch, bear warning sign at gorge flagstop trailhead.",
+    "street_layout": {
+      "anchor": "Depot at south end of loop on siding. Post office adjacent to depot - historically grounded (mail arrived by train).",
+      "west_side_main_street": "Civic and essential services: Sheriff/Jail, General Store, Schoolhouse (all from H_Pendergast Turn of the Century Town set)",
+      "east_side_main_street": "Commerce: Dew Drop Inn, three shops, Elk River Valley Bank, gas station",
+      "road": "Asphalt from depot northward through main street. Parking at depot. Road continues north beyond modeled area on both east and west sides - implies town extends beyond layout edge.",
+      "everything_within_loop": "All buildings and road within the Silver Ridge loop. Mainline is outside the siding loop."
+    }
+  },
+  "pvj_town": {
+    "notes": "Getting crowded in planning. Contains depot, warehouse, team shed, yard buildings, viaduct/trestle for mine spur, river through town. Street scene to be included.",
+    "railroad_infrastructure": [
+      "PVJ Depot - not yet acquired",
+      "Water tower",
+      "Fuel/coaling facility",
+      "Engine repair building (RIP track)",
+      "Sand tower / sand house (locomotive sanding for grades and wet rail - more appropriate than salt storage; salt not used on rails)",
+      "Snowplow storage - roofed stub track or simple engine house for Russell snowplow summer storage",
+      "Switch tower - optional, many shortlines didn't have one; TBD"
+    ],
+    "commercial": [
+      "Restaurant or diner",
+      "Pub/diner - Blair Line Green Door Lounge kit (second copy of Dew Drop Inn kit, in hand). Name TBD. Differentiated from Silver Ridge Dew Drop Inn by color, trim, and signage. Sister business narrative.",
+      "Firehouse (H_Pendergast collection - already acquired)"
+    ],
+    "residential": [
+      "Modest houses behind commercial strip - count and models TBD"
+    ]
+  },
+  "scenic_details_needed": {
+    "notes": "Applies layout-wide unless noted",
+    "infrastructure": [
+      "Telephone/power poles along right of way",
+      "Fencing - various types (rail, wire, wooden)",
+      "Mile markers and grade signs",
+      "Outhouses for older/rural structures"
+    ],
+    "vehicles": [
+      "Period road vehicles - era appropriate (1970s-2000s)",
+      "Trucks for industrial areas",
+      "Passenger cars for town areas"
+    ],
+    "wildlife_and_livestock": [
+      "Moose figures - near Elk River riparian areas on east leg",
+      "Elk figures - upper slopes near Timberline/mine branch",
+      "Bear warning signage at gorge flagstop trailhead (implied, not figure)",
+      "Domestic livestock TBD - horses, cattle if ranch area developed"
+    ],
+    "scenic_structures": [
+      "Fire watchtower - mountain/forest setting",
+      "Water tank or windmill if ranch area developed",
+      "Wealthy second home - large 3D printed house, gorge entrance north side, already in hand but unpainted"
+    ],
+    "silver_ridge_specific": [
+      "Sidewalks along main street",
+      "Period storefront signage",
+      "Street lighting",
+      "Depot platform and details"
+    ],
+    "buildings_to_print": [
+      "Remaining H_Pendergast Silver Ridge buildings (school, sheriff/jail, general store, shops)",
+      "PVJ buildings TBD from H_Pendergast overflow or other sources",
+      "Silver Ridge Depot (Blair Line Blairstown 2-story - in hand, needs assembly and paint)",
+      "Gorge flagstop Overton Coach kit - in hand, needs assembly and paint"
+    ]
+  }
+}

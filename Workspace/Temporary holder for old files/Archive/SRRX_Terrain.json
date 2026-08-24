@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "type": "srrx_terrain",
+    "note": "Read when terrain, geology, water features, rock faces, or scenic landform questions arise. Jake has a geology degree - intentional geological choices are achievable and worth doing."
+  },
+  "geology_framework": {
+    "region": "Steamboat Springs CO analog. Predominantly sedimentary and metamorphic with significant glacial overprinting.",
+    "rock_types": {
+      "lower_elevations": "Sedimentary layers - limestone, sandstone, shale. Fold and tilt visible in cliff faces and road cuts showing compression history.",
+      "higher_elevations": "Metamorphic core - gneiss, schist, quartzite.",
+      "gorge_walls": "Fault-controlled canyon through sedimentary/metamorphic rock. Parallel walls, narrow floor, vertical faces. Shear zones, slickensides, possible mineralization along fault plane visible as scenic detail."
+    },
+    "valley_types": "U-shaped glacial valleys in upper elevations transitioning to V-shaped river-cut canyons lower down. The gorge is a river canyon, not a glacial valley.",
+    "unifying_fault": "A regional east-west fault or fault system runs through Silver Ridge Mountain. This single feature explains: (1) the river's hard westward turn into the gorge, (2) the gorge's dramatic straight-walled character, (3) the mine location on the northwest face. The fault zone is weaker rock that the river exploits. Ore deposits follow structural features - the mine exploits a mineralized fault or contact zone between metamorphic basement and intruded igneous body. One railroad, one geologic story, everything connected."
+  },
+  "water_features": {
+    "moose_lake": {
+      "type": "Glacial tarn in a cirque",
+      "location": "High elevation, northeast corner near Silver Ridge Mountain",
+      "character": "Sits in a bowl carved by glacier. Headwall on three sides, moraine dam on fourth. Headwall visible as dramatic rock face - reads as above treeline regardless of modeled height. Classic high Rocky Mountain lake.",
+      "fauna": "Moose habitat - riparian willows at margins"
+    },
+    "waterfall": {
+      "type": "Meltwater cascade from hanging valley",
+      "character": "Moose Lake drains south, drops off hanging valley lip as waterfall, cuts steep V-canyon through hard rock on descent to valley floor"
+    },
+    "mill_pond": {
+      "preferred_type": "Debris dam pond",
+      "location": "Below Timberline Lumber, at river bend east of mill",
+      "geology": "Rockslide or mass wasting debris dams the drainage. Slide scar visible on slope above - raw rock, possibly modeled as exposed cliff face. Moraine debris from canyon bottom contributed.",
+      "narrative": "The slide opened up the forest canopy. The timber operation followed the accessible wood. The pond is a byproduct of the same event that created the lumber business.",
+      "alternatives_considered": "Oxbow meander cutoff (works at any elevation, crescent shaped), glacial kettle (round/irregular, boggy margins). Debris dam chosen for visual interest and narrative payoff.",
+      "fauna": "Willows at margins, moose habitat"
+    },
+    "pine_river": {
+      "character": "Runs east-west across north leg, splitting PVJ yard (north) from industrial/depot area (south). Carved into 1-inch foam subroadbed - sits below grade naturally.",
+      "crossing": "Road bridge connects south bank (depot/warehouse) to north bank (yard). Workers commute across it."
+    },
+    "elk_river": {
+      "character": "Flows south through valley, hits east-west fault line, turns hard west into gorge. Fault-controlled canyon - straighter than meander cut, walls more vertical.",
+      "gorge": "Dramatic westward turn explained by fault. River follows zone of weakened, fractured rock. Same fault system hosts ore body at mine."
+    }
+  },
+  "modeling_philosophy": {
+    "principle": "Selective compression with internal consistency. Do not model accurate elevation - model accurate relationships. Mine is higher than valley. Gorge is deeper than river approach. Cirque headwall reads as above treeline even if height difference is six inches. Viewer's brain fills in implied scale if relationships are right and geology is plausible.",
+    "rock_strata": "Jake's geology background enables intentional strata choices. Cliff face with horizontal sedimentary bedding slightly tilted by compression folding reads as real geology immediately. Cirque headwall with jointed metamorphic texture reads differently than river-cut limestone canyon. These distinctions are invisible to most builders and immediately apparent to anyone who knows terrain.",
+    "vertical_scale": "Honest compromise - cannot achieve geologically accurate vertical scale with horizontal compressed 1:160 and vertical limited by ceiling height. Relationships matter more than measurements."
+  },
+  "terrain_plan": {
+    "north_leg": "1-inch foam as subroadbed base. Operational zero. Pine River carved down into foam. Gentle roll south of river toward foothills - not perfectly flat outside the yard.",
+    "east_leg": "3-inch total elevation (1+2 inch foam stacked). 2 inches above north leg zero. Foothills begin south of Pine River and rise toward Silver Ridge Mountain.",
+    "mountain": "Stacked foam in progressively smaller footprints carved to organic terrain shape. Sculptamold skin over carved foam - lightweight, bonds well, carves while damp. Contour lines on V9 plan serve as foam layer footprint guides.",
+    "yard": "Flat at zero. Prototypically accurate - yards must be level. Everything outside yard has subtle grade and roll.",
+    "foam_in_hand": "One 4x8 sheet 2-inch, one 4x8 sheet 1-inch. Additional 1-inch sheet needed."
+  }
+}

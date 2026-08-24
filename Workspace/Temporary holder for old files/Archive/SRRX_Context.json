@@ -1,0 +1,319 @@
+{
+  "_meta": {
+    "type": "srrx_context",
+    "updated": "2026-06-08",
+    "instruction": "Authoritative SRRX project context. Parse all fields at session start. This file overrides memory. Do not reformat for output.",
+    "reference_files": {
+      "SRRX_Fleet.json": "Full fleet roster and operational rules. Read when fleet or coupler questions arise.",
+      "SRRX_Wiring.json": "Full wiring zones and DCC infrastructure detail. Read when wiring questions arise.",
+      "SRRX_Buildings.json": "Town planning, building inventory, scenic details. Read when building/scenery questions arise.",
+      "SRRX_Personal.json": "Personal connections and people. Read when family or personal reference questions arise.",
+      "SRRX_Handbook.json": "Operations handbook and owner manual status. Read when handbook questions arise.",
+      "SRRX_Paints.json": "Paints, finishes, and decal plans. Read when painting questions arise.",
+      "SRRX_Terrain.json": "Geology, water features, terrain plan, modeling philosophy. Read when terrain, rock faces, water features, or scenic landform questions arise.",
+      "plan_images": "See google_drive.plan_images for Drive file IDs. Read when topo/contour/foam planning work arises. Always fetch the current V10 track plan image at session start for this work."
+    }
+  },
+  "project": {
+    "name": "Silver Ridge Railway",
+    "mark": "SRRX",
+    "scale": "N",
+    "era": "1970s-2000s diesel",
+    "setting": "Rocky Mountains",
+    "character": "Practical shortline, not tourist railroad tone",
+    "track_plan": "V10 (AnyRail)",
+    "interchange_partner": "Denver & Rio Grande Western (D&RGW). Original Class I partner since SRRX founding 1904. D&RGW founded 1870. Do not change or confuse this.",
+    "founded": "1904",
+    "pvj_note": "PVJ = Pine Valley Junction. Never 'Port Vance Junction' or any other expansion. Do not confuse or hallucinate alternate names."
+  },
+  "geography": {
+    "subdivisions": [
+      "River Subdivision (River Run)",
+      "Gorge Subdivision (Scenic Run)"
+    ],
+    "locations": {
+      "PVJ_yard": "North end, main staging/yard",
+      "PVJ_industrial_spur": "South side of PVJ, light blue on V8. Labeled \"PVJ Depot and Intermodal\" in V8 legend. Serves warehouse and passenger depot. Branches independently from mainline with NO connection to yard ladder.",
+      "team_track_RIP": "Gray track at south end of yard ladder. Passive/multipurpose. Absorbed into yard protection zone.",
+      "silver_ridge": "South end town/terminus",
+      "mine_branch": "Grade-intensive spur with switchback grades ascending to mine",
+      "helper_pocket": "Staging for helper engines on mine ascents. Part of PVJ yard protection zone.",
+      "tunnel_bores": "Two bores through the mountain. Part of north leg.",
+      "gorge": "East leg, south of the mountain",
+      "southern_tunnel_portals": "Boundary between north and south halves of layout",
+      "timberline_lumber": "Industry spur, east leg",
+      "smelter": "Industry spur, part of mine run",
+      "timberline_fuel_depot": "Industry spur, daily operational stop"
+    },
+    "orientation": "North leg = PVJ side through tunnels. South of mountain = Silver Ridge side, gorge, east leg.",
+    "rivers": {
+      "pine_river": "Runs through Pine Valley District and PVJ area. Named the valley (Pine Valley) before the railroad arrived.",
+      "elk_river": "Runs through Silver Ridge District and gorge country. Drains the Elk River Valley. Replaces 'Silver Ridge River' everywhere."
+    },
+    "valley": "Elk River Valley - the broader geographic region the SRRX operates in. Two river systems: Pine River (north/PVJ) and Elk River (south/Silver Ridge). The SRRX links two separate drainages across a mountain divide."
+  },
+  "wiring_summary": {
+    "command_station": "CSB1 at 5A - single unit, no booster, no EB1s",
+    "rule": "Do not suggest EB1s or a second booster unless Jake raises the topic for reconsideration.",
+    "protection": "1156 automotive bulbs - 9 zones. Bulbs in hand as of 2026-05-29.",
+    "detail_file": "SRRX_Wiring.json"
+  },
+  "fleet_summary": {
+    "note": "Full roster in SRRX_Fleet.json",
+    "critical_obs": "Obs2780 has NO rear coupler - permanent. Always PVJ end of Valley Flyer. F9A on Silver Ridge end.",
+    "fleet_note": "NO 40-Ton GE - it is a 44-Ton. Two switchers only: No.98 (70-Ton, DCC operational) and No.101 (44-Ton, stalls forward - axle swap diagnostic pending).",
+    "valley_flyer_note": "F9A may be DC-only - no decoder space found. White gear risk unresolved. Do not invest in decals or livery until settled."
+  },
+  "acquisitions": [
+    {
+      "item": "Gocheer airbrush kit with compressor",
+      "status": "In hand and in active use as of 2026-06-08",
+      "notes": "Entry-level. Current nozzle: 0.3mm. Also have 0.2mm and 0.5mm sets. First test ~2026-05-25: too thin, tape bleed. Tamiya low-tack tape needed. 2026-06-07 session: brick red on Federal Building worked well. Metallic silver for fencing clogged the 0.3mm nozzle - metallic pigment particles lodged in tip even after cleaning. Nozzle passed air and water but pulsed under back-pressure. Diagnosis: partial metallic clog in nozzle tip. Fix: soak 0.3mm nozzle assembly in airbrush cleaner overnight. RULE: never use metallic paint through 0.3mm. Use 0.5mm for metallics and large body areas (caboose body next). Use airbrush medium not water for thinning metallics. Never stop flow mid-session without flushing immediately. Gorge-ous Grub cupola painted before brush acted up."
+    },
+    {
+      "item": "Three Sears Catalog homes (Rodessa/Lorain/Purita)",
+      "status": "In hand - arrived 2026-05-23",
+      "notes": "PLA or resin kits with separate roofs. Silver Ridge residential. First major airbrush targets."
+    },
+    {
+      "item": "N Scale Architects #10051 Overton Coach Flag Stop Station",
+      "status": "In hand",
+      "notes": "Arrived. Includes attached privy. Gorge flagstop depot."
+    },
+    {
+      "item": "Dew Drop Inn N Scale Architects model",
+      "status": "Acquired",
+      "notes": "Kit manufactured by Blair Line as 'Green Door Lounge' - that is the kit name only, not the layout history. On the SRRX it is and always has been the Dew Drop Inn."
+    },
+    {
+      "item": "Gorge-ous Grub picnic table 3D designs",
+      "status": "Acquired",
+      "notes": "For Gorge flagstop scenic area"
+    },
+    {
+      "item": "NPS Entry Sign 3D printable model",
+      "status": "Evaluating",
+      "notes": "250mm x 160mm print scale, ~25mm at N scale. Has trees/mountain/NPS arrowhead. No bison, no text beyond NPS. Plan: resin print + basswood posts + Sculptamold or carved foam stone base + decal for park name text. Font: Twentieth Century Condensed ~5.7pt at 75% horizontal scale. No taglines - too small."
+    },
+    {
+      "item": "1156 automotive bulbs",
+      "status": "In hand - 2026-05-29",
+      "notes": "Fault protection scheme for 9 wiring zones. Wired in series with isolated track sections. Self-resetting, illuminate to identify fault location. Install as each zone is wired rather than retrofitting later."
+    },
+    {
+      "item": "Nylon wire clamps",
+      "status": "In hand - 2026-05-29",
+      "notes": "Primary use: holding 1156 bulbs. Secondary use: routing and organizing wiring under benchwork. Be deliberate about wire routing from the start."
+    },
+    {
+      "item": "Tortoise switch machines",
+      "status": "In hand: 13 confirmed, all tested and working as of 2026-06-05. Minor cosmetic damage on some (broken mounting ears, fulcrum slot on one) but all fully serviceable.",
+      "source": "eBay",
+      "cost": "$13.50 each",
+      "notes": "20 total needed - 7 still to source. Solid state components simple and robust - used Tortoise indistinguishable from new in operation."
+    },
+    {
+      "item": "Blair Line Dew Drop Inn kit (aka Green Door Lounge)",
+      "status": "In hand - two copies",
+      "notes": "Kit manufactured by Blair Line as 'Green Door Lounge' - that is the kit name only. Second copy ordered accidentally (Blair Line direct + Yankee Dabbler). Both being kept. Copy 1: Silver Ridge - Dew Drop Inn. Copy 2: PVJ - pub/diner, name TBD. Differentiation plan: different siding color, window/door trim color, signage and name. Narrative cover: sister businesses owned by same person or family - plausible for small mountain community entrepreneur. Buildings will be on opposite ends of layout with mountain between them."
+    },
+    {
+      "item": "Blair Line Blairstown 2-story Depot",
+      "status": "In hand",
+      "notes": "Will serve as Silver Ridge passenger depot. Check footprint against Silver Ridge town loop geometry before benchwork commits placement."
+    },
+    {
+      "item": "Turn of the Century Town 3D model collection",
+      "designer": "H_Pendergast",
+      "source": "Thingiverse",
+      "status": "Acquired - printing TBD",
+      "contents": "9 shops, blacksmith, sheriff/jail, two banks, school, unnamed building, farmhouse, barn, general store, city hall. Kit format with separate parts (windows, pillars, fencing, second floors, roofs). Era-appropriate, consistent scale and aesthetic across the set.",
+      "notes": "More buildings than Silver Ridge needs - overflow candidates for Pine Valley Junction. Kit format ideal for airbrush painting before assembly. Fine details (window mullions, porch pillars, fence pickets) may be fragile at N scale. Blacksmith fits Silver Ridge working-town character well. Cohesive single-designer set ensures consistent scale and aesthetic on street scenes."
+    },
+    {
+      "item": "3D print queue - next makerspace session (this weekend)",
+      "status": "Planned",
+      "items": [
+        "Satellite dish for Federal Building",
+        "Picnic table for Gorge-ous Grub",
+        "Umbrella table with seating for Gorge-ous Grub",
+        "H_Pendergast school building (test print and narrative requirement)",
+        "One or more other H_Pendergast buildings as test prints",
+        "H_Pendergast fire station (In collection - marked for inspection)"
+      ],
+      "needed_but_not_found": "Nothing currently - fire station found in H_Pendergast collection.",
+      "designer_note": "H_Pendergast (Thingiverse) is prolific - consistent era-appropriate style across buildings, similar but unique. Full Turn of the Century Town collection plus fire station. Also has Hill Valley (Back to the Future) complete downtown reconstruction."
+    }
+  ],
+  "app": {
+    "version": "v3b",
+    "status": "CONFIRMED WORKING 2026-05-19",
+    "file": "SRXX_Operations_v3b.html",
+    "ls_key": "srrx_db_v3",
+    "locations": [
+      "Workspace folder (primary)",
+      "Google Drive/Data (v3b + timestamped 10:13 backup)"
+    ],
+    "features": [
+      "Dashboard",
+      "Roster",
+      "Car Status",
+      "Industry Spots",
+      "DCC Status",
+      "Zones (9 zones)",
+      "Maintenance",
+      "Session Log",
+      "Backlog/Ideas"
+    ],
+    "persistence": "Every edit auto-saves to localStorage. hydrate() validates roster and carStatus are arrays before trusting localStorage - discards and falls back to baked-in DB if not. Photo backfill in hydrate(): missing photo fields restored from file snapshot by record ID. Export Backup downloads timestamped HTML with current DB baked in between DB_START/DB_END markers. Reset clears localStorage and reverts to baked-in DB.",
+    "if_cards_missing": "Hit Reset button first. Cause is stale/invalid localStorage from broken session.",
+    "critical": [
+      "Do NOT remove <meta name='referrer' content='no-referrer'> from <head> - required for Google Drive thumbnail photos via file:// protocol",
+      "Edit tool truncates HTML file when appending large blocks to end - use Python write for tail changes",
+      "File must end with: window.onload = init;\\n</script>\\n\\n\\n</body></html>",
+      "DB block wrapped with /*DB_START*/ and /*DB_END*/ markers",
+      "Never use browser Save As - strips script tags and corrupts file",
+      "History: Python refactor 2026-05-19 truncated file at line 1260. Restored from Export Backup 0904."
+    ],
+    "data_model": "Road and number are separate fields (roster: road+num; carStatus: road+carNum). Numbers stored without # sign. Display layer constructs 'SP #5017'. Zones: id z1-z9 with name/coverage/boundary/bulb/fault/notes.",
+    "long_term": "Single-file HTML + embedded JSON is functional hack. Right solution: separate DB as JSON with File System Access API (Chrome/Edge) or Google Drive API. Deferred."
+  },
+  "google_drive": {
+    "folder": "SRRX Operations Manager (shared - anyone with link)",
+    "folder_id": "1D_aG9t2xDn5-X9aEdSQWnv3s4Bc93Dme",
+    "plan_images": {
+      "note": "Always fetch the V10 elevations image at session start for any topo/contour/foam work. Do NOT use the OBJ terrain mesh for contour generation - it is inaccurate in the mountain/tunnel area. OBJ track vertex XYZ is accurate but terrain mesh is auto-generated and wrong.",
+      "V10_elevations": {
+        "title": "Silver Ridge Railroad V10 Elevations.jpg",
+        "file_id": "1Qjg9ObWd-m36k25xfgmXIPpPFxJa-I_u",
+        "description": "CURRENT PRIMARY REFERENCE for topo work. Annotated with all connection point elevations (black text on gray background), grade percentages on inclined segments, contour labels in dark purple, water feature elevations. This is the authoritative elevation data source."
+      },
+      "V10_track_plan": {
+        "title": "Silver Ridge Railroad V10 Track plan.jpg",
+        "file_id": "1GcnIcMJ5LX92e0Oejvm7gutGl7IbuXi-",
+        "description": "Track plan only, no room context. Use alongside V10_elevations for geometry reference."
+      },
+      "V10_full": {
+        "title": "Silver Ridge Railroad V10-full.jpg",
+        "file_id": "1tCMe-qOsXAw0RrM9VNwLNQG3umaWilC9",
+        "description": "Full layout including room context, zone labels, and legend. Use when room orientation matters."
+      },
+      "V9_superseded": {
+        "title": "Silver Ridge Railroad V9.jpg",
+        "file_id": "1tu7tpt7R1QlRfIkkML9Hj8PZA1v0G1cY",
+        "description": "Superseded. V10 is current. Keep for reference only."
+      },
+      "OBJ_file": {
+        "title": "Silver Ridge Railroad V10.obj",
+        "file_id": "1JEaJqIhz13_dwFuV2N7DXFKfq9CJQhwn",
+        "size": "54MB",
+        "warning": "Terrain mesh is auto-generated and unreliable in mountain/tunnel area - do NOT use for contour generation. Track vertex XYZ coordinates are accurate. Very token-expensive to download and process - avoid unless specifically needed for track geometry extraction."
+      },
+      "contour_outputs": {
+        "note": "v4 is the current working topo map (2026-06-05). Generated from annotated elevation data - no OBJ dependency. SVG too large (~591KB) for Drive auto-upload - Jake uploads manually.",
+        "v4_svg_local": "SRRX_Terrain_Map_v4.svg (in Cowork outputs folder - upload to Drive manually)",
+        "v4_png_local": "SRRX_Terrain_Map_v4.png (in Cowork outputs folder)",
+        "topo_script_local": "srrx_topo.py (in Cowork outputs folder - can regenerate v4 at any time)",
+        "v4_status": "Good working first pass. Mountain contours accurate to annotation data. Gorge floor profile accurate. Track lines are schematic/approximate, not pixel-traced. Undulating terrain in both legs. Jake doing manual bezier smoothing and refinement in Affinity Designer.",
+        "v3_svg": "1lOySwIOL234jLOXRKgNaGAq3jRuNCsTz",
+        "v3_preview_png": "1JVkyLSlbTFOoG_xCQPz0jPhgXR2ZSk4X",
+        "drive_test_file_delete": "1NqOCSfIkQw1spORhJgNbb073eq-VHyIt (test file from failed upload attempt - delete this)"
+      }
+    },
+    "Documents": [
+      "SRRX Claude Context (this file - always read most recent)",
+      "SRRX Power District Schematic.html ID:1PmqnMG8CnVGhOL4xZZSvoHRwaL0KRjHO (SUPERSEDED by 1156 bulb plan)",
+      "SRXX_OwnerManual_Wiring_v1.md (upload from Claude)"
+    ],
+    "Data": [
+      "SRRX_Operations_v3b.html (current)",
+      "SRXX_Operations_v2a.html (superseded)",
+      "SRRX_Operations.xlsx (original - superseded but retained)"
+    ],
+    "Fleet_Photos": "Filenames include (Phone) or (Small) suffix. Wired into app via Google Drive thumbnail URLs.",
+    "write_tool": "Drive create_file tool works for small files but cannot handle files >~8KB as inline content. SVGs, HTML, and large JSONs must be uploaded manually: download from Cowork outputs folder, upload to Drive."
+  },
+  "workflow": {
+    "session_style": "Short sessions with fresh context each time",
+    "session_start": "Read this context file before proceeding",
+    "context_file_primary": "Silver Ridge Railway workspace folder > SRRX_Claude_Context.json",
+    "context_file_backup": "Google Drive > SRRX Operations Manager > Documents",
+    "platform": "Jake uses Cowork desktop app on Windows - not browser chat",
+    "troubleshooting": "One-variable-at-a-time methodology - Jake's professional standard. Respect it.",
+    "skills": "Claude Skills system in use - read relevant SKILL.md files before creating documents or code",
+    "topo_map_note": "Topo/contour work is token-intensive. Use V10_elevations JPG as primary data source - it has all connection elevations and contour labels. Do NOT use the OBJ terrain mesh. Ask Jake rather than infer/guess for anything not visible in the annotated image. Mine branch in PVJ valley is on a viaduct - its track elevations (0.87, 1.39) are NOT terrain surface points; terrain below stays at 0.0 until mountain rises to meet track. v4 topo script (srrx_topo.py) uses RBF interpolation with dense background grid + post-process clamp. Regenerate from script rather than re-deriving from scratch.",
+    "confirmed_terrain_elevations": {
+      "datum": "PVJ yard = 0.0 (technically 0.1 - treat as 0.0)",
+      "north_leg_mainline_W_to_E": "0 → 0.1 (several) → 0.14 → 0.17 → 0.31 → 0.45. Grades: 1.9% and 2.0% on approach to mountain.",
+      "mine_branch": "3% grade from yard turnout to smelter junction. Connections: 0.87 (intermediate, viaduct section), 1.39 (viaduct crossing Pine River - track only, terrain below is 0.0). Smelter junction: 3.04. Switchbacks: 3.1 → 3.4 → 3.51 → 3.7 (×3 on tails) → 4 → 4.4 → 4.75 smelter / 4.78 mine.",
+      "mine_branch_viaduct_note": "Mine branch is elevated above PVJ valley floor from yard to where mountain rises to meet it. Does not affect terrain contours in that section.",
+      "east_leg_portals": "Inner tunnel bore: 0.91. Outer tunnel bore: 1.13. Track climbs from portals southward to 2.0-2.29 level.",
+      "east_leg_general": "2.0-2.29 throughout. Silver Ridge: 2.0.",
+      "gorge": "Elk River flows south in valley (still at 2.0) then hits east-west fault and turns hard west. Fault/turn point: ~0.0. Gorge floor going west: -0.5 → -1.0 → -1.4 → -1.7 → -2.0 → -2.5 at layout exit. Timberline Lumber branch crosses river at ~2.0 (simple crossing, not gorge). Bridge/flagstop (Gorge-ous Grub) at gorge crossing where mainline crosses the E-W gorge channel.",
+      "water_features": "Moose Lake: 5.5 (glacial cirque, NE corner). Mill Pond: 3.15 (on mountain face near Timberline Lumber, fed by waterfall cascade from Moose Lake). Pine River: carved below datum, ~-0.35 channel.",
+      "mountain_contours": "2.5 (base) → 3.0 → 4.0 → 4.5 → 5.0 → 5.5 (Moose Lake). Peak: ~6.0 planned (TBD as terrain is built - headwall above cirque)."
+    }
+  },
+  "current_state": {
+    "as_of": "2026-06-05",
+    "layout_room": "Accessible. Water line remediation complete. Flooring replaced. Credenza (2x6) along south wall as staging storage. Dual monitor articulated supports installed freeing desk space. Desk swap complete.",
+    "benchwork": "Complete as of 2026-05-25. L-girder framework assembled, legs with X-bracing and casters installed. 11/32 plywood laid on top loose - one screw used to address minor bow in one sheet. Sway bars cut but not installed - kept as insurance if racking develops; operator-side left open for underside wiring access. V9 AnyRail plan printed at 1:1 on 13x19 laser paper and laid on benchwork. Pink foam acquired: one 4x8 sheet of 2\" and one of 1\". Datum: yard at zero, east leg at 2\" elevation.",
+    "csb1": "Operational",
+    "isolation_zones": "Finalized (9 zones)",
+    "loco_101": "Axle swap diagnostic pending",
+    "handbook": "Substantially complete through all sections and appendices",
+    "handbook_todo": "40-Ton GE in handbook/app - Jake to global find/replace in AP: 40-Ton -> 44-Ton",
+    "wiring_diagram": "Affinity Designer file needs update: remove booster/EB1 symbols, add 1156 bulb symbols",
+    "tortoise_inventory": "13 in hand, all tested and confirmed working as of 2026-06-05. Minor cosmetic damage on some units (broken mounting ears, fulcrum rail on one) but all fully serviceable. 20 total needed. 7 still to source.",
+    "painting_progress": {
+      "federal_building": "Painted brick red 2026-06-07. PLA texture visible but reads as rough masonry/stucco at viewing distance - acceptable. Pending: concrete gray on top/bottom horizontal band details; dark gray or muted olive/charcoal accent on window shades. Fence runs to layout edge (not behind building) to allow parking lot. Parking lot: 1-2 black Chevy Suburbans (period-correct 1980s government vehicles - pre-SUV terminology but identical vehicle). Satellite dish: 1.5-1.9\" diameter at N scale for a 20-25ft dish, which is correct for a government/intelligence contractor facility of this era.",
+      "gorge_ous_grub_caboose": "Cupola painted 2026-06-07 before airbrush issue developed. Body (SRRX maroon/cream) still pending - switch to 0.5mm nozzle for body work.",
+      "sears_houses": "Not yet started - will serve as airbrush practice progression after airbrush is recalibrated."
+    },
+    "topo_map_work": "2026-06-07/08 weekend: Jake working on SVG contours in Affinity Designer. Converting polylines to bezier curves, restructuring mountain contour layers as wedding-cake (each contour shares corner vertex and builds on the one below). Still in progress."
+    "turnout_inventory": {
+      "atlas_in_hand": [
+        "2752 Left #6 (x2)",
+        "2753 Right #6 (x1)",
+        "2700 Left #4",
+        "2701 Right #4",
+        "2750 Left #4",
+        "2751 Right #4",
+        "2551 Right with solenoid (older Custom Line)",
+        "2551 Right manual (older Custom Line)",
+        "Left turnout - Chinese manufacture, narrow ties, Atlas branded",
+        "Left turnout - Austrian manufacture, Atlas branded"
+      ],
+      "peco_in_hand": [
+        "Wye turnout (x3)"
+      ],
+      "arnold_rapido": [
+        "Two vintage turnouts - W. Germany, nickel silver rail, live frog (metal plate under frog), parallel-to-rail manual throw. Not suitable for DCC layout without polarity switching. Keep as curiosities."
+      ],
+      "atlas_substitution_result": "Attempted to substitute Atlas #4/#6 for Peco ST-5/ST-6 in AnyRail V9. Not viable - yard reduced to two tracks (effectively a siding), loop geometry compromised, or mine switchback approach affected. No good compromise found.",
+      "peco_needed": {
+        "yard": "4x ST-5 (left), 5x ST-6 (right)",
+        "spurs": "3x ST-6 - smelter, Timberline Fuel Depot, Timberline Lumber",
+        "total": "4x ST-5, 8x ST-6 = 12 Peco turnouts",
+        "remaining_positions": "Atlas in hand covers interchange #6 and gorge positions (2702/2703). Wyes covered."
+      },
+      "sourcing": "PURCHASED: eBay lot of 21 Peco turnouts (14x ST-5, 7x ST-6). Paid $250 + tax/shipping = ~$275 total. Shipping Saturday. Plan: use 4x ST-5 and 5x ST-6 for layout (3 ST-6 positions replaced with Atlas #6). Surplus to resell: ~10x ST-5 and 2x ST-6. Expected resale ~$100+ after eBay fees and shipping. Net cost ~$175 for 9 Peco turnouts needed."
+    },
+    "track_plan_note": "V10 supersedes V9 (2026-06-01). Smelter relocated from east leg to mine branch on north leg - now on teal spur off mine branch before first switchback. Removes implausible cross-mountain ore transit. One turnout removed north of gorge (used for smelter branch instead). Inner tunnel run adjusted, first switchback tail lengthened, mountain contours reworked. Operating sequence: empties up switchbacks to mine, full cars descend, helper waiting at smelter turnout, both engines push full load up 3.7% grade to smelter (stub spur, no runaround - no room at elevation). Both engines return light to yard. Slag pile planned on south side of smelter - downslope toward gorge, geologically honest. Slag predates Elk River National Park; creates intentional visual tension between industrial operation and park boundary. Room layout zones also documented in V10 full plan.",
+    "foam_plan": "North leg: 1\" foam as subroadbed base. This is operational zero. Pine River carved down into foam - river sits below grade naturally. East leg: 3\" total (1\"+2\" stacked) to maintain 2\" elevation above north leg zero. Foam in hand: one 4x8 sheet of 2\", one 4x8 sheet of 1\". Additional 1\" sheet needed - single sheets insufficient to cover both legs at required thickness."
+  },
+  "priorities": [
+    "Peco turnouts - 21 lot purchased ~2026-06-01, should be arriving. Confirm receipt and inspect condition.",
+    "Airbrush: soak 0.3mm nozzle in airbrush cleaner overnight. Swap to 0.5mm for Gorge-ous Grub caboose body (maroon/cream). Do not use metallic through 0.3mm again.",
+    "Federal Building finishing: gray on cement bands (top/bottom wall details), dark accent on window shades, parking lot with black Suburban(s), satellite dish (~1.5-1.9\" diameter).",
+    "Topo map v4 - upload SRRX_Terrain_Map_v4.svg and .png to Drive manually. Delete test file 1NqOCSfIkQw1spORhJgNbb073eq-VHyIt from Drive folder.",
+    "Topo map refinement (Jake doing in Affinity) - bezier smoothing, mountain wedding-cake layers, adding smelter/mine/slag pile, track line corrections.",
+    "Resolve smelter inbound supply car movement - Hooker/Dow/Penn Salt tank cars need new operating sequence in V10 (smelter now on mine branch, not Scenic Run)",
+    "Apply handbook updates - SRRX_Handbook_Updates_Draft.md then SRRX_Handbook_Updates_V10.md to Affinity Publisher v1.1",
+    "Begin foam work - north leg 1 inch (zero datum, Pine River carved in), east leg 3 inch (1+2 stacked). Need additional 1-inch sheet.",
+    "Track inventory assessment - eBay flex track condition check before elevation cuts",
+    "Coupler identification project (photos + reference guide)",
+    "Update Affinity Designer wiring diagram - remove EB1 symbols, add 1156 bulb symbols",
+    "Any bugs surfacing from real-world use of v3b app"
+  ]
+}

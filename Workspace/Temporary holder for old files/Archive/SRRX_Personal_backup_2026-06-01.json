@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "type": "srrx_personal",
+    "note": "Read when personal connections, family references, or people questions arise."
+  },
+  "personal_connections": [
+    {
+      "element": "Burlington Route freight car (Burlington85117)",
+      "connection": "Jake's great uncle was a Burlington Route employee"
+    },
+    {
+      "element": "N Scale Architects Overton Coach depot #10051",
+      "connection": "Overton is Jake's family surname"
+    },
+    {
+      "element": "Dew Drop Inn",
+      "connection": "Bar Jake's father frequented after NY Giants games"
+    },
+    {
+      "element": "Elk River Valley Bank",
+      "connection": "Named after Yampa Valley Bank in Steamboat Springs CO, where son Cole works. Cole's son (Jake's grandson, born Feb 2025) carries this lineage. Layout name is Elk River Valley Bank to avoid using the real place name."
+    },
+    {
+      "element": "Federal Building (Chi-Chi's model on hill above town)",
+      "connection": "Son Charlie, software engineer at Palantir NYC"
+    }
+  ],
+  "people": {
+    "jake": "Owner/operator. Telecom and computing background. Prepress/digital at large print house. Strong Affinity Publisher and Affinity Designer proficiency. Surname: Overton.",
+    "jakes_wife": "Works from home in sales. Deep expertise in lighting products - useful for layout lighting decisions.",
+    "mark_murphy": "markmurphystudios.com - Jake's brother-in-law. Accomplished self-taught visual artist. Candidate for backdrop commissions once layout terrain established.",
+    "cole": "Jake's son. Works at Yampa Valley Bank, Steamboat Springs CO (layout version: Elk River Valley Bank). Son born February 2025 (Jake's grandson).",
+    "charlie": "Jake's son. Software engineer at Palantir, NYC.",
+    "jakes_father": "Frequented Dew Drop Inn bar after NY Giants games - inspiration for layout building name."
+  }
+}

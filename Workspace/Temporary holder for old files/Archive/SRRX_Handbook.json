@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "type": "srrx_handbook",
+    "note": "Read when handbook content, sections, or owner manual questions arise."
+  },
+  "handbook": {
+    "software": "Affinity Publisher",
+    "format": "Markdown with explicit AP paragraph and character style tags for import via global find-and-replace. NOT .docx, NOT plain markdown.",
+    "sections_complete": [
+      "Foreword (Jake's personal voice)",
+      "S1 History (D&RGW as original interchange from 1904 founding)",
+      "S2 Overview of the Line",
+      "S3 Industries and Traffic",
+      "S4 Locomotives and Rolling Stock",
+      "S5 Communities and People (some [DETAIL] placeholders)",
+      "S6 The Valley Flyer (pending road loco identity and JMRI roster)",
+      "S7 Operating Rules 7.1-7.9",
+      "S8 Train Movements 8.1-8.7",
+      "S9 Identity Branding and Public Presence",
+      "S10 Railfan Guide and Photo Locations",
+      "AppA Layout Map with Milepost References",
+      "AppB Operating Timetable (shell - times TBD at commissioning)",
+      "AppC Waybill Reference (shell - TBD at commissioning)",
+      "AppD SRRX Logo and Colors (hex values and variants)",
+      "AppE Glossary",
+      "AppF Fleet Roster (40-Ton GE is error - correct to 44-Ton globally)"
+    ],
+    "foreword_personal_section": "Jake added a personal connections section to the Foreword after the third paragraph, before 'If you are reading this as an operator...' Covers: Burlington Route car (great uncle Richard Carlton Overton, historian/author of 'The Burlington Route'), Dew Drop Inn (father Dick Overton, Giants games, Weehawken NJ bar by the river), Elk River Valley (Steamboat Springs inspiration, son Cole, Yampa Valley Bank, railroad history 1909), Federal Building (son Charlie at government contractor with discreet offices worldwide), Overton Coach (William Dayton Overton 1870s-80s lightweight coaches, coincidental name). Closing line: 'Somehow, it just felt right to use a car named after an Overton on this railroad, even if the connection is coincidental.' Transition line added before 'If you are reading this as an operator...': 'The railroad does not need these connections to run. But they are part of why it was worth building.'",
+    "pending_updates": "Two update drafts in workspace folder: (1) SRRX_Handbook_Updates_Draft.md - gorge flagstop, NPS sign, Silver Ridge building inventory, Valley Flyer fixes. (2) SRRX_Handbook_Updates_V10.md - V10 smelter relocation: S2.7, S2.5, S3.4, S7.5/7.7, S8.1, S8.4, AppA map. Apply Draft first, then V10. Silver Ridge River global replace to Elk River still pending.",
+    "open_questions": [
+      "Smelter inbound supply cars (Hooker, Dow, Penn Salt tank cars): how do they reach the smelter in V10? In V9 they came by Scenic Run local. In V10 smelter is on the mine branch spur. A new movement or sub-section is needed describing how chemical supply cars are pushed up the smelter spur. Could be addition to 8.1 Mine Run or a new 8.x Smelter Local.",
+      "Section 8.4 retitled to Timberline Fuel Depot only - smelter content removed. Tank car assignments for smelter (Hooker69502, Dow14003, PennSalt67927) need new movement home.",
+      "Silver Ridge hotel mentioned in 8.7 narrative - not in current building inventory. Confirm if intended or editorial."
+    ],
+    "version_current": "v1.1 (in workspace as PDF)"
+  },
+  "owners_manual": {
+    "note": "Separate from Operations Handbook. Covers builder/maintaines topics: benchwork, wiring, DCC infrastructure, scenics philosophy, materials list.",
+    "sections": [
+      {
+        "file": "SRRX_OwnerManual_Wiring_v1.md",
+        "title": "Wiring Philosophy and Power Districts",
+        "status": "Drafted - download from Claude and upload to Drive/Documents"
+      }
+    ],
+    "next": "Develop outline and overview section"
+  }
+}

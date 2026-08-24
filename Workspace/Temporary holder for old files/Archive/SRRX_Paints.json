@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "type": "srrx_paints",
+    "note": "Read when painting, finishing, or decal questions arise."
+  },
+  "paints_and_finishes": [
+    {
+      "item": "Rust-Oleum Matte Hammered Black",
+      "type": "rattle can spray paint",
+      "use": "Roofing on structures - reads as aged asphalt shingles or tar paper at N scale without additional weathering. Also used on patio furniture originally.",
+      "can_size": "12 oz",
+      "status": "Mostly full - repurposed from old stock, ~20 years old, still spraying well",
+      "notes": "Standard Rust-Oleum product line - widely available as replacement. Hammered texture is the key property. Date code on can bottom: 012808."
+    }
+  ],
+  "decals": {
+    "notes": "Custom decals needed for repainting project. Outsourced printing preferred over home inkjet — white/cream on dark backgrounds and fine N scale lettering push consumer printer limits. Artwork in Affinity Designer using hex values from Appendix D.",
+    "printing": "Commercial route preferred. Services to evaluate: Rail Graphics, Circus City Decals, Herald King. Need vector artwork as PDF or AI file. Measure car sides carefully before designing — 1:160 scale.",
+    "candidates": [
+      {
+        "item": "Gorge-ous Grub caboose",
+        "notes": "SRRX maroon/cream livery. Road name, reporting marks, restaurant name on side. Highest priority — car is already being repainted."
+      },
+      {
+        "item": "Valley Flyer F9A/B",
+        "notes": "SRRX livery rebrand — deferred. Locomotive may be DC-only (no decoder space found). White gear risk unresolved. Do not invest in decals until DCC and mechanical questions settled."
+      },
+      {
+        "item": "Valley Flyer passenger coaches",
+        "notes": "Deferred pending Valley Flyer locomotive decision."
+      }
+    ],
+    "design_status": "Not started. Appendix D hex values are the source of truth for colors."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "type": "srrx_handbook",
+    "note": "Read when handbook content, sections, or owner manual questions arise."
+  },
+  "handbook": {
+    "software": "Affinity Publisher",
+    "format": "Markdown with explicit AP paragraph and character style tags for import via global find-and-replace. NOT .docx, NOT plain markdown.",
+    "sections_complete": [
+      "Foreword (Jake's personal voice)",
+      "S1 History (D&RGW as original interchange from 1904 founding)",
+      "S2 Overview of the Line",
+      "S3 Industries and Traffic",
+      "S4 Locomotives and Rolling Stock",
+      "S5 Communities and People (some [DETAIL] placeholders)",
+      "S6 The Valley Flyer (pending road loco identity and JMRI roster)",
+      "S7 Operating Rules 7.1-7.9",
+      "S8 Train Movements 8.1-8.7",
+      "S9 Identity Branding and Public Presence",
+      "S10 Railfan Guide and Photo Locations",
+      "AppA Layout Map with Milepost References",
+      "AppB Operating Timetable (shell - times TBD at commissioning)",
+      "AppC Waybill Reference (shell - TBD at commissioning)",
+      "AppD SRRX Logo and Colors (hex values and variants)",
+      "AppE Glossary",
+      "AppF Fleet Roster (40-Ton GE is error - correct to 44-Ton globally)"
+    ],
+    "foreword_personal_section": "Jake added a personal connections section to the Foreword after the third paragraph, before 'If you are reading this as an operator...' Covers: Burlington Route car (great uncle Richard Carlton Overton, historian/author of 'The Burlington Route'), Dew Drop Inn (father Dick Overton, Giants games, Weehawken NJ bar by the river), Elk River Valley (Steamboat Springs inspiration, son Cole, Yampa Valley Bank, railroad history 1909), Federal Building (son Charlie at government contractor with discreet offices worldwide), Overton Coach (William Dayton Overton 1870s-80s lightweight coaches, coincidental name). Closing line: 'Somehow, it just felt right to use a car named after an Overton on this railroad, even if the connection is coincidental.' Transition line added before 'If you are reading this as an operator...': 'The railroad does not need these connections to run. But they are part of why it was worth building.'",
+    "pending_updates": "Handbook update draft prepared: SRRX_Handbook_Updates_Draft.md in workspace folder. Covers S2.4, S2.5, S5.3 (fills [DETAIL] placeholder with full Silver Ridge building inventory), S5.4 (Gorge-ous Grub, NPS sign), S6.2 (fix inconsistency - Silver Ridge not only stop), S6.4 (gorge flagstop operating pattern), S6.5 (gorge flagstop passenger experience), S10.3 (gorge flagstop photo location). Bank name in draft uses Elk River Valley Bank. 'Silver Ridge River' in handbook body needs global replace to Elk River."
+  },
+  "owners_manual": {
+    "note": "Separate from Operations Handbook. Covers builder/maintaines topics: benchwork, wiring, DCC infrastructure, scenics philosophy, materials list.",
+    "sections": [
+      {
+        "file": "SRRX_OwnerManual_Wiring_v1.md",
+        "title": "Wiring Philosophy and Power Districts",
+        "status": "Drafted - download from Claude and upload to Drive/Documents"
+      }
+    ],
+    "next": "Develop outline and overview section"
+  }
+}

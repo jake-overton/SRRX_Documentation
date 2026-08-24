@@ -1,0 +1,272 @@
+{
+  "main": {
+    "id": "4b277e44cf836259",
+    "type": "split",
+    "children": [
+      {
+        "id": "866a44148ccf4c3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab1a9710b250e6b2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5e80d7639d4d00c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f6ce36d4d6e1396",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5075e6c4b6dc4fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f8ccefefa5187440",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "cork",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3cae23cb09ceba36",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "63a979996fd8bad8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e43d3c5ea573eda5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c1b5ee0ac6582b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SRRX_Context.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "b6dc4bf9e2a51e68",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SRRX_Context.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "f8acddca307d71f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8bf78c5e832d46df",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "26193d11671380f7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03_Paint-and-Scenery-Specs-and-Builds/🖌️ Paint, Finishing & Weathering Reference Manual.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "2a8a405844ecc469",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "c53cdd28fe7999ef",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "02_Electical-and-Wiring/SRRX Owner's Manual v1.0.pdf"
+              },
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          },
+          {
+            "id": "1cd02a886923ff0e",
+            "type": "leaf",
+            "state": {
+              "type": "smart-env-status-view",
+              "state": {},
+              "icon": "gauge",
+              "title": "Smart Environment Status"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-lookup:Smart Lookup: Open lookup view": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "ab1a9710b250e6b2",
+  "lastOpenFiles": [
+    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/_Gem instructions - Lt. Layout.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Gem Instructions  - Sparky.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🖌️ Paint, Finishing & Weathering Reference Manual.md",
+    "00_Vault Index.md",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - paint guide.jpg",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - full rendering.jpg",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🖌️ Workbench Master Guide.md",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Micro-Mark Acrylic mix guide.png",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears Houses paint colors.md",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Silver Ridge Railroad V11-a.jpg",
+    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/_Lieutenant Layout Master.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Wiring Philosophy.md",
+    "Untitled.base",
+    "Master System Guardrails - All Gems.md",
+    "Pasted image 20260818111535.png",
+    "Pasted image 20260817234405.png",
+    "Pasted image 20260817234051.png",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🚩Flagstop Depot.md",
+    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/Layout Installation Log.md",
+    "99_Operations-and-Timetables/Gem Instructions  - Operations Mgt.md",
+    "99_Operations-and-Timetables/SRRX_Operations_Master.md",
+    "02_Owner's Manual",
+    "03_Paint-and-Scenery-Specs-and-Builds/Untitled.canvas",
+    "03_Paint-and-Scenery-Specs-and-Builds/Silver Ridge Railroad V10-full.jpg",
+    "01_SRRX-Handbook/SRRX Handbook - Appendix B.md",
+    "01_SRRX-Handbook/SRRX Handbook - Appendix A.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 4.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 3.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 6.md",
+    "SRRX.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 2.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 1.md",
+    "01_SRRX-Handbook/SRRX Handbook - Foreword.md",
+    "SRRX_Context.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railroad V10-wiring.pdf",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/sparky_electronics_master.md",
+    "SRRX Handbook",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
+    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical",
+    "02_Owner's Manual/⚡Electrical-and-Wiring",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds",
+    "99_Operations-and-Timetables",
+    "01_SRRX-Handbook/SRRX Handbook v1.1 - spreads.pdf"
+  ]
+}

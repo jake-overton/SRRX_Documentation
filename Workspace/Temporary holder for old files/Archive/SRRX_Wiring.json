@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "type": "srrx_wiring",
+    "note": "Read when wiring, zones, or DCC infrastructure questions arise."
+  },
+  "wiring": {
+    "command_station": "CSB1 at 5A - single unit, no booster, no EB1s",
+    "protection": "1156 automotive bulbs wired in series with isolated track zones. Self-resetting, illuminate to identify fault location. NCE EB1 plan superseded. Bulbs in hand as of 2026-05-29.",
+    "rule": "Do not suggest EB1s or a second booster unless Jake raises the topic for reconsideration.",
+    "programming_track": "Built from dimensional lumber, soldered straight track, repurposed wall plug prongs in painted pink foam. Fed directly from CSB1 programming output - unchanged.",
+    "diagram": "Affinity Designer file using DXF base from AnyRail. NEEDS UPDATE: remove booster feed lines and EB1 symbols, replace with 1156 bulb symbols.",
+    "zones": [
+      {
+        "id": "z1",
+        "name": "North Mainline",
+        "coverage": "PVJ throat through tunnel bores",
+        "boundary": "Southern tunnel portals"
+      },
+      {
+        "id": "z2",
+        "name": "South Mainline",
+        "coverage": "South of tunnel portals through gorge to Silver Ridge",
+        "boundary": "Southern tunnel portals"
+      },
+      {
+        "id": "z3",
+        "name": "PVJ Yard",
+        "coverage": "Full yard ladder including helper pocket",
+        "notes": "Team Track/RIP absorbed"
+      },
+      {
+        "id": "z4",
+        "name": "PVJ Industrial Spur",
+        "coverage": "Warehouse and passenger depot spur"
+      },
+      {
+        "id": "z5",
+        "name": "Mine Spur",
+        "coverage": "Mine branch including switchback grades"
+      },
+      {
+        "id": "z6",
+        "name": "Timberline Lumber Spur",
+        "coverage": "Timberline Lumber industry spur"
+      },
+      {
+        "id": "z7",
+        "name": "Smelter Spur",
+        "coverage": "Smelter industry spur"
+      },
+      {
+        "id": "z8",
+        "name": "Fuel Depot Spur",
+        "coverage": "Timberline Fuel Depot"
+      },
+      {
+        "id": "z9",
+        "name": "Silver Ridge Siding",
+        "coverage": "Siding at Silver Ridge terminus"
+      }
+    ]
+  }
+}
