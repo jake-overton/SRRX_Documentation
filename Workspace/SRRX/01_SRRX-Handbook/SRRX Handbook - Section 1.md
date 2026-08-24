@@ -78,4 +78,4 @@ The mine will not last forever, and Timberline Lumber may evolve as regional for
 
 The Valley Flyer will continue to play a central role in the railroad's public identity, providing visibility and political support that freight alone cannot guarantee. The SRRX endures because it matters — to the people, to the region, and to the landscape itself.
 
-[[SRRX Handbook - Foreword]] $<<Prev\ \ Next>>$ [[SRRX Handbook - Section 2]]
+[[SRRX Handbook - Foreword]] $⬅️\ Prev\  \ Next\ ➡️$  [[SRRX Handbook - Section 2]]

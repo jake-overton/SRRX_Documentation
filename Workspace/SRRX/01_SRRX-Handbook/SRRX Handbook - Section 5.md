@@ -93,3 +93,5 @@ That shared stake is what keeps the SRRX running when the economics alone might 
 
 > **[SRRX Figure]** Figure — Valley Flyer departing Silver Ridge
 > *[SRRX Caption]* The SRRX endures because the communities along its line have decided, generation after generation, that they are better off with it than without it.
+
+[[SRRX Handbook - Section 4]] $⬅️\ Prev\  \ Next\ ➡️$  [[SRRX Handbook - Section 6]]

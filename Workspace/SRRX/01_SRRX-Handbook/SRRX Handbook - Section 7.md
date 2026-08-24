@@ -125,3 +125,4 @@ A fouling point is the location beyond which a car or locomotive occupying one t
 * On the mine spur switchbacks, each leg is a clearance point for the leg above and below it. A consist reversing through a turnout shall be confirmed clear of the previous leg before the turnout is thrown for the next movement. There is no room on the mine grade to recover from a fouling error.
 * In multi-operator sessions, no operator shall throw a turnout on another operator's active segment without first communicating the intent and receiving acknowledgment. Turnout authority follows the train — the crew working a segment controls its switches.
 * A derailment at or near a turnout shall be treated as a potential fouling event. Operations on adjacent tracks shall pause until the derailed equipment is rerailed and confirmed clear of all fouling points before resuming.
+[[SRRX Handbook - Section 6]] $⬅️\ Prev\  \ Next\ ➡️$ [[SRRX Handbook - Section 8]]

@@ -94,4 +94,4 @@ Despite its modest scale, the SRRX operates a traffic base of genuine complexity
 *[SRRX Figure] Figure — Traffic balance diagram*
 *[SRRX Caption]* The interplay of mineral loads, fuel traffic, lumber, and passenger service creates a demanding but rewarding operating environment on the SRRX.
 
- [[SRRX Handbook - Section 2]] $<<Prev\ \ Next>>$ [[SRRX Handbook - Section 4]]
+ [[SRRX Handbook - Section 2]] $⬅️\ Prev\  \ Next\ ➡️$  [[SRRX Handbook - Section 4]]

@@ -3,7 +3,7 @@ title: "SRRX Handbook - Section 9: Identity, Branding, and Public Presence"
 author: "Jake Overton"
 tags: [SRRX, handbook, lore, model-railroad, N-scale]
 ---
-
+[[SRRX Handbook - Section 10]][[SRRX Handbook - Section 8]]
 # SECTION 9 – Identity, Branding, and Public Presence
 
 The Silver Ridge Railway does not advertise in the conventional sense. It has no marketing department, no agency retainer, and no budget for billboards on the interstate. What it has is a railroad that people remember — a gorge crossing that stays with you, a maroon locomotive working a switchback in the autumn light, a depot agent in Silver Ridge who knows your name by your second visit. The SRRX's public presence is built on those moments, accumulated over decades, and reinforced by a visual identity consistent enough that anyone who has seen the railroad once would recognize it again anywhere along the line.
@@ -45,3 +45,5 @@ The SRRX's event calendar is modest and deliberate. A small number of special mo
 Photography charters are the most operationally interesting of the special events, and the most popular with the railfan community. A charter typically runs the full Scenic loop, with agreed-upon slow orders at the gorge bridge and the mine switchback approach — the two locations that account for the majority of published SRRX photography. The locomotive is cleaned, the consist is assembled to full length, and the crew understands that the pace of the day is the photographer's pace rather than the timetable's. The railroad charges accordingly, and the charters have never lacked for participants.
 
 The holiday train runs point-to-point between PVJ and Silver Ridge, typically in December, with a consist that adds decorated boxcars behind the standard Flyer equipment. It is not an elaborate production. It does not need to be. The combination of maroon locomotives, mountain snow, and a train that shows up on schedule in a community that has been watching for it since childhood is sufficient. The SRRX has been running the holiday train long enough that missing it would be noticed more than running it ever is.
+
+ [[SRRX Handbook - Section 8]] $⬅️\ Prev\  \ Next\ ➡️$ [[SRRX Handbook - Section 10]]

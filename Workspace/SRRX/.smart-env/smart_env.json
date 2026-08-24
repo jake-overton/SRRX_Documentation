@@ -16,8 +16,12 @@
     "file_exclusions": "Untitled",
     "folder_exclusions": ""
   },
-  "gitignore_exclusions": [],
-  "gitignore_exclusions_updated_at": 0,
+  "gitignore_exclusions": [
+    ".gsheet",
+    ".gdoc",
+    ".gslides"
+  ],
+  "gitignore_exclusions_updated_at": 1787585529084,
   "language": "en",
   "re_import_wait_time": 13,
   "smart_chat_threads": {

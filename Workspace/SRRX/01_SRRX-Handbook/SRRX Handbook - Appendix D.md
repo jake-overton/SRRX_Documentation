@@ -31,3 +31,5 @@ The SRRX decal sheet contains all logo variants at multiple scales, number sets,
 The SRRX motto — *Small Railroad. Big Heart.* — is used sparingly and reserved for public-facing materials only. It does not appear on rolling stock or motive power. The motto is never used in operational documentation.
 
 Color matching for physical modeling applications should reference the hex values above as the primary standard. Paint brand equivalents are to be identified by the modeler and are not specified here, as available products vary by supplier and era.
+
+[[SRRX Handbook - Appendix C]] $⬅️\ Prev\  \ Next\ ➡️$  [[SRRX Handbook - Appendix E]]

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "866a44148ccf4c3d",
+        "id": "9dfb96b2186ba337",
         "type": "tabs",
         "children": [
           {
-            "id": "ab1a9710b250e6b2",
+            "id": "76d4e29d6402c71e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01_SRRX-Handbook/SRRX Handbook - Section 4.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SRRX Handbook - Section 4"
             }
           }
         ]
@@ -95,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SRRX_Context.md",
+                "file": "01_SRRX-Handbook/SRRX Handbook - Section 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRRX_Context.md",
+                "file": "01_SRRX-Handbook/SRRX Handbook - Section 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -157,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_Paint-and-Scenery-Specs-and-Builds/🖌️ Paint, Finishing & Weathering Reference Manual.md",
+                "file": "01_SRRX-Handbook/SRRX Handbook - Section 4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -182,7 +186,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "02_Electical-and-Wiring/SRRX Owner's Manual v1.0.pdf"
+                "file": "01_SRRX-Handbook/SRRX Handbook - Section 4.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -199,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -214,53 +218,52 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Toggle Footer Connections": false,
-      "smart-lookup:Smart Lookup: Open lookup view": false,
-      "obsidian-git:Open Git source control": false
+      "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "ab1a9710b250e6b2",
+  "active": "76d4e29d6402c71e",
   "lastOpenFiles": [
-    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/_Gem instructions - Lt. Layout.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Gem Instructions  - Sparky.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🖌️ Paint, Finishing & Weathering Reference Manual.md",
+    "01_SRRX-Handbook/SRRX_Handbook_Updates_V10.md",
     "00_Vault Index.md",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - paint guide.jpg",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - full rendering.jpg",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🖌️ Workbench Master Guide.md",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Micro-Mark Acrylic mix guide.png",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears Houses paint colors.md",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Silver Ridge Railroad V11-a.jpg",
-    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/_Lieutenant Layout Master.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Wiring Philosophy.md",
     "Untitled.base",
-    "Master System Guardrails - All Gems.md",
-    "Pasted image 20260818111535.png",
-    "Pasted image 20260817234405.png",
-    "Pasted image 20260817234051.png",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🚩Flagstop Depot.md",
-    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/Layout Installation Log.md",
-    "99_Operations-and-Timetables/Gem Instructions  - Operations Mgt.md",
-    "99_Operations-and-Timetables/SRRX_Operations_Master.md",
-    "02_Owner's Manual",
-    "03_Paint-and-Scenery-Specs-and-Builds/Untitled.canvas",
-    "03_Paint-and-Scenery-Specs-and-Builds/Silver Ridge Railroad V10-full.jpg",
+    "01_SRRX-Handbook/SRRX Handbook - Section 4.md",
+    "01_SRRX-Handbook/SRRX Handbook - Appendix F.md",
+    "01_SRRX-Handbook/SRRX Handbook - Appendix E.md",
+    "01_SRRX-Handbook/SRRX Handbook - Appendix D.md",
+    "01_SRRX-Handbook/SRRX Handbook - Appendix C.md",
     "01_SRRX-Handbook/SRRX Handbook - Appendix B.md",
     "01_SRRX-Handbook/SRRX Handbook - Appendix A.md",
-    "01_SRRX-Handbook/SRRX Handbook - Section 4.md",
-    "01_SRRX-Handbook/SRRX Handbook - Section 3.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 10.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 9.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 8.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 7.md",
     "01_SRRX-Handbook/SRRX Handbook - Section 6.md",
-    "SRRX.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 5.md",
+    "01_SRRX-Handbook/SRRX Handbook - Section 3.md",
     "01_SRRX-Handbook/SRRX Handbook - Section 2.md",
     "01_SRRX-Handbook/SRRX Handbook - Section 1.md",
     "01_SRRX-Handbook/SRRX Handbook - Foreword.md",
-    "SRRX_Context.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
+    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/Layout Installation Log.md",
+    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/_Gem instructions - Lt. Layout.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Gem Instructions  - Sparky.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🖌️ Paint, Finishing & Weathering Reference Manual.md",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - paint guide.jpg",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - full rendering.jpg",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Micro-Mark Acrylic mix guide.png",
+    "Silver Ridge Railroad V11-a.jpg",
+    "Pasted image 20260818111535.png",
+    "Pasted image 20260817234405.png",
+    "Pasted image 20260817234051.png",
+    "02_Owner's Manual",
+    "03_Paint-and-Scenery-Specs-and-Builds/Untitled.canvas",
+    "03_Paint-and-Scenery-Specs-and-Builds/Silver Ridge Railroad V10-full.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railroad V10-wiring.pdf",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/sparky_electronics_master.md",
     "SRRX Handbook",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
     "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical",

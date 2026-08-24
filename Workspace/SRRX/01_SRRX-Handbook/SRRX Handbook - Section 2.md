@@ -72,4 +72,4 @@ The railroad's small size concentrates rather than simplifies its operations. Ev
 
 Above all, the SRRX values precision and professionalism. From the first switching move of the day at PVJ to the final descent of a loaded ore cut from the mine, every action reflects the railroad's commitment to safe, effective mountain railroading.
 
-[[SRRX Handbook - Section 1]] $<<Prev\ \ Next>>$ [[SRRX Handbook - Section 3]]
+[[SRRX Handbook - Section 1]] $⬅️\ Prev\  \ Next\ ➡️$ [[SRRX Handbook - Section 3]]

@@ -96,4 +96,4 @@ The fleet will grow and evolve as the railroad develops. Acquisitions will be ev
 > **[SRRX Figure]** Figure — Pine Valley Engine House
 > *[SRRX Caption]* The Pine Valley Engine House is the maintenance hub for the SRRX fleet, where reliability is valued above all else.
 
-[[SRRX Handbook - Section 3]] <-- Prev   Next --> [[SRRX Handbook - Section 5]]
+[[SRRX Handbook - Section 3]] $⬅️\ Prev\  \ Next\ ➡️$ [[SRRX Handbook - Section 5]]
