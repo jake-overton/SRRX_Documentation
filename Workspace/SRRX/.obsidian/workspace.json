@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🔌Electrical & Wiring Master Log"
+              "title": "Turnout Control Sub-Panel"
             }
           }
         ],
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -236,10 +236,12 @@
   },
   "active": "152ba398dd80f705",
   "lastOpenFiles": [
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V11-a wiring.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Wiring Philosophy.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
     "Silver Ridge Railroad V11-a.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Gem Instructions  - Sparky.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railroad V10-wiring.pdf",
@@ -265,7 +267,6 @@
     "01_SRRX-Handbook/SRRX Handbook - Section 1.md",
     "01_SRRX-Handbook/SRRX Handbook - Foreword.md",
     "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/Layout Installation Log.md",
-    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/_Gem instructions - Lt. Layout.md",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - paint guide.jpg",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - full rendering.jpg",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Micro-Mark Acrylic mix guide.png",
@@ -279,7 +280,6 @@
     "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical",
     "02_Owner's Manual/⚡Electrical-and-Wiring",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds",
-    "99_Operations-and-Timetables",
-    "01_SRRX-Handbook/SRRX Handbook v1.1 - spreads.pdf"
+    "99_Operations-and-Timetables"
   ]
 }
