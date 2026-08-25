@@ -2,10 +2,11 @@
 
 This assembly serves as an intermediate **Turnout Control Sub-Panel** for the layout. It interfaces between the layout command bus (via a CSB1 interface running I2C/Qwiic) and up to **16 slow-motion switch machines (Tortoise motors)** of which only 10 are initially configured.
 
-This allows for a throttle (Engine Driver, JMRI or others)
+This allows for a throttle (Engine Driver, JMRI or others) to control the turnouts in software without having to use toggle switches or manually throw the switch. It also does not rely on track power to run.
 
-Its primary function is to translate low-voltage digital I2C logic commands into the bi-directional 12V DC polarity shifts required to drive and stall slow-motion turnout motors in either the "Normal" or "Reverse" position.
-[[Sub-Panel - in progress.jpg]]
+Its primary function of the panel is to translate low-voltage digital I2C logic commands into the bi-directional 12V DC polarity shifts required to drive and stall slow-motion turnout motors in either the "Normal" or "Reverse" position.
+
+This is a photo of the panel in progress. Nothing but the terminal strips at the bottom are tied down (hence the use of velcro straps to wrangle the wires). [[Sub-Panel - in progress.jpg]]
 ### Key Components & Functions
 - **2× MCP23017 16-Bit I/O Expanders (Qwiic / I2C):**
     - **Function:** Act as the digital interface for the board. They receive serial turnout commands over the 4-wire I2C bus (SDA/SCL) and translate them into 32 discrete digital output pins (GPA0–GPA7, GPB0–GPB7 on each board).
