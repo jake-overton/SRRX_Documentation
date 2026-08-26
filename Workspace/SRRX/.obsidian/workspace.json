@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "19605588569ed1a6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "SRRX Owner's Manual v1.0"
-            }
-          },
-          {
             "id": "152ba398dd80f705",
             "type": "leaf",
             "state": {
@@ -33,8 +21,7 @@
               "title": "Turnout Control Sub-Panel"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -236,9 +223,9 @@
   },
   "active": "152ba398dd80f705",
   "lastOpenFiles": [
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V11-a wiring.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Wiring Philosophy.md",
