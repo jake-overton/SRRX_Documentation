@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "723b82a1816863fa",
+        "id": "6af0aea9e9fa0f3e",
         "type": "tabs",
         "children": [
           {
-            "id": "152ba398dd80f705",
+            "id": "810f6750fe1877fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Turnout Control Sub-Panel"
+              "title": "🔌Electrical & Wiring Master Log"
             }
           }
         ]
@@ -99,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -197,9 +198,18 @@
               "icon": "gauge",
               "title": "Smart Environment Status"
             }
+          },
+          {
+            "id": "94a60a356de0c008",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -221,12 +231,14 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "152ba398dd80f705",
+  "active": "810f6750fe1877fe",
   "lastOpenFiles": [
-    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V11-a wiring.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Wiring Philosophy.md",
     "Silver Ridge Railroad V11-a.jpg",
