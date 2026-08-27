@@ -11,14 +11,12 @@
             "id": "810f6750fe1877fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
-                "mode": "source",
-                "source": false
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Turnout Control Sub-Panel"
+              "icon": "lucide-image",
+              "title": "Sub-Panel - in progress"
             }
           }
         ]
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -233,8 +231,8 @@
   },
   "active": "810f6750fe1877fe",
   "lastOpenFiles": [
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png",
