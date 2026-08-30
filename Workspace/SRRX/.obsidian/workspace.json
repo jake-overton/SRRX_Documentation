@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "477165669a863959",
+        "id": "75f2be8fadc9f4ad",
         "type": "tabs",
         "children": [
           {
-            "id": "7e168d30d8957c19",
+            "id": "b28d8486e4efd1f7",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Workspace/SRRX/.obsidian/workspace.json",
-                "bFile": "Workspace/SRRX/.obsidian/workspace.json",
-                "aRef": ""
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Turnout Control Sub-Panel"
             }
           }
         ]
@@ -99,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,13 +231,16 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "7e168d30d8957c19",
+  "active": "b28d8486e4efd1f7",
   "lastOpenFiles": [
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/~ub-Panel - final.tmp",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg.~tmp",
     "Silver Ridge Railroad V11-a.jpg",
     "Untitled.base",
     "Pasted image 20260817234051.png",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V11-a wiring.pdf",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
     "00_Vault Index.md",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🖌️ Workbench Master Guide.md",
@@ -272,11 +276,8 @@
     "Pasted image 20260817234405.png",
     "02_Owner's Manual",
     "03_Paint-and-Scenery-Specs-and-Builds/Untitled.canvas",
-    "03_Paint-and-Scenery-Specs-and-Builds/Silver Ridge Railroad V10-full.jpg",
     "SRRX Handbook",
     "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical",
-    "02_Owner's Manual/⚡Electrical-and-Wiring",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds",
-    "99_Operations-and-Timetables"
+    "02_Owner's Manual/⚡Electrical-and-Wiring"
   ]
 }
