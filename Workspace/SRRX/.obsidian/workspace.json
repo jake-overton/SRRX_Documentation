@@ -11,10 +11,14 @@
             "id": "7e168d30d8957c19",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Workspace/SRRX/.obsidian/workspace.json",
+                "bFile": "Workspace/SRRX/.obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -203,7 +207,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -225,7 +230,7 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "d5075e6c4b6dc4fa",
+  "active": "7e168d30d8957c19",
   "lastOpenFiles": [
     "Silver Ridge Railroad V11-a.jpg",
     "Untitled.base",
