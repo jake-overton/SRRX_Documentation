@@ -32,7 +32,7 @@ A map of every note and file currently in this vault, grouped by folder. Regener
 
 - [[🔌Electrical & Wiring Master Log]]
 - [[🔌Master Electrical Architecture & Workbench Standards]]
-- [[🔌Wiring Philosophy]]
+- [[🔌01_Wiring Philosophy]]
 - [[Gem Instructions  - Sparky]]
 - [[sparky_electronics_master]]
 - 📄 Silver Ridge Railroad V10-wiring.pdf
