@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "75f2be8fadc9f4ad",
+        "id": "c3dcb2a2629b77ee",
         "type": "tabs",
         "children": [
           {
-            "id": "b28d8486e4efd1f7",
+            "id": "7fd18a5b040bd424",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Turnout Control Sub-Panel"
+              "title": "New tab"
             }
           }
         ]
@@ -231,10 +227,11 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "b28d8486e4efd1f7",
+  "active": "d5075e6c4b6dc4fa",
   "lastOpenFiles": [
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
+    "01_SRRX-Handbook/SRRX Handbook - Foreword.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/~ub-Panel - final.tmp",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg.~tmp",
     "Silver Ridge Railroad V11-a.jpg",
