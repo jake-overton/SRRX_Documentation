@@ -1,6 +1,6 @@
 # Wiring Philosophy and Power Districts
 ## Overview
-This section documents the DCC power architecture and short circuit protection strategy for the Silver Ridge Railway. It records both the decisions made and the reasoning behind them, so that future maintenance, upgrades, or troubleshooting can be approached with full context rather than guesswork.
+This section documents the DCC power  architecture and short circuit protection strategy for the Silver Ridge Railway. It records both the decisions made and the reasoning behind them, so that future maintenance, upgrades, or troubleshooting can be approached with full context rather than guesswork.
 
 The wiring philosophy of the SRRX is grounded in a single principle: solve the problems the railroad actually has, not the problems a larger or more complex operation might have. Every decision documented here follows from that principle.
 ## DCC Power — The CSB1 as Sole Power Source
