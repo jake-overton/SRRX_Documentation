@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🔌01_Wiring Philosophy"
+              "title": "🔌Master Electrical Architecture & Workbench Standards"
             }
           }
         ]
@@ -233,27 +233,29 @@
   },
   "active": "4028fb39afd84177",
   "lastOpenFiles": [
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/sparky_electronics_master.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V12-wiring.png",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V12 wiring.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V11-a wiring.pdf",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
     "01_SRRX-Handbook/SRRX Handbook - Foreword.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/~ub-Panel - final.tmp",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg.~tmp",
     "Silver Ridge Railroad V11-a.jpg",
     "Untitled.base",
     "Pasted image 20260817234051.png",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V11-a wiring.pdf",
     "00_Vault Index.md",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🖌️ Workbench Master Guide.md",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/_Gem Instructions  - Professor Paint and Sally Scenery.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Gem Instructions  - Sparky.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railroad V10-wiring.pdf",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/sparky_electronics_master.md",
     "01_SRRX-Handbook/SRRX Handbook - Section 4.md",
     "01_SRRX-Handbook/SRRX_Handbook_Updates_V10.md",
     "01_SRRX-Handbook/SRRX Handbook - Appendix F.md",
@@ -273,11 +275,9 @@
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - full rendering.jpg",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Micro-Mark Acrylic mix guide.png",
     "Pasted image 20260818111535.png",
-    "Pasted image 20260817234405.png",
     "02_Owner's Manual",
     "03_Paint-and-Scenery-Specs-and-Builds/Untitled.canvas",
     "SRRX Handbook",
-    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical",
-    "02_Owner's Manual/⚡Electrical-and-Wiring"
+    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical"
   ]
 }

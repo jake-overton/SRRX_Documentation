@@ -7,6 +7,8 @@
 - **Dedicated DC Accessory Supply:** A separate **12VDC, 3A power supply brick** powers all Tortoise switch machines and baseline layout lighting.
 - **Physical Bus Separation:** * The **14 AWG Red/Black DCC Track Bus** runs along the **south side** of the L-girder web.
 	- The **14 AWG Yellow/White 12VDC Accessory Bus** runs along the **north side** of the L-girder web to completely eliminate crosstalk and inductive interference.
+
+![[Silver Ridge Railway V12-wiring.png]]
 # 2. Track Power & Short Protection
 #### (#1003 Bulb Strategy)
 - **Current Limiting Architecture:** The layout is divided into 8 active isolated track districts.   
