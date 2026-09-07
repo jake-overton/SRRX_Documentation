@@ -1,18 +1,20 @@
 # 1. Power Supply & Command Infrastructure
 
-- **Command Station:** **DCC-EX CSB1** integrated command station/booster providing up to $5\text{A}$ global capacity.
-- **DC-PWM (Initial Testing Phase):** Configured via DCC-EX TrackManager for initial layout construction, track-testing, and running vintage DC locomotives safely without burning out DC motors.
-- **CSB1 Master 4-Fuse Protection:**
- - To protect the CSB1's internal $H$-bridge driver during DC-PWM polarity switching and cross-track faults, **all four output terminals ($-A$, $+A$, $-B$, $+B$) must have an inline 5A fuse** installed immediately at the command station output.
-- **Dedicated DC Accessory Supply:** A separate **12VDC, 3A power supply brick** powers all Tortoise switch machines and baseline layout lighting.
-- **Physical Bus Separation:** * The **14 AWG Red/Black DCC Track Bus** runs along the **south side** of the L-girder web.
-	- The **14 AWG Yellow/White 12VDC Accessory Bus** runs along the **north side** of the L-girder web to completely eliminate crosstalk and inductive interference.
+#### **Command Station:** 
+**DCC-EX CSB1** integrated command station/booster providing up to $5\text{A}$ global capacity.
+#### **DC-PWM (Initial Testing Phase):**
+Configured via DCC-EX TrackManager for initial layout construction, track-testing, and running vintage DC locomotives safely without burning out DC motors.
+#### **CSB1 Master 4-Fuse Protection:**
+ To protect the CSB1's internal $H$-bridge driver during DC-PWM polarity switching and cross-track faults, **all four output terminals ($-A$, $+A$, $-B$, $+B$) must have an inline 5A fuse** installed immediately at the command station output.
+**Dedicated DC Accessory Supply:** A separate **12VDC, 3A power supply brick** powers all Tortoise switch machines and baseline layout lighting.
+**Physical Bus Separation:** * The **14 AWG Red/Black DCC Track Bus** runs along the **south side** of the L-girder web.
+- The **14 AWG Yellow/White 12VDC Accessory Bus** runs along the **north side** of the L-girder web to completely eliminate crosstalk and inductive interference.
 
 ![[Silver Ridge Railway V12-wiring.png]]
 # 2. Track Power & Short Protection
-#### (#1003 Bulb Strategy)
+#### #1003 Bulb Strategy
 - **Current Limiting Architecture:** The layout is divided into 8 active isolated track districts.   
-- **#1003 Automotive Bulbs:**
+- **1003 Automotive Bulbs:**
     - Wired **strictly in series on Rail A (Hot Rail)** of each zone sub-bus terminal block.
     - Common Rail B (Black wire) remains continuous and uninterrupted.
     - **Thermal & Component Safety:** The #1003 bulb chokes short-circuit current to $\sim0.94\text{A}$ (12W), preventing melted N-scale Delrin tie strips or spot-welded wheelsets while keeping current well under the CSB1's 5A trip limit.
