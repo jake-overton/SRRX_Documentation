@@ -11,14 +11,12 @@
             "id": "4028fb39afd84177",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
-                "mode": "source",
-                "source": false
+                "file": "SRRX Wiring schemas.jpg"
               },
-              "icon": "lucide-file",
-              "title": "🔌Master Electrical Architecture & Workbench Standards"
+              "icon": "lucide-image",
+              "title": "SRRX Wiring schemas"
             }
           }
         ]
@@ -233,9 +231,11 @@
   },
   "active": "4028fb39afd84177",
   "lastOpenFiles": [
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
+    "SRRX Wiring schemas.jpg",
+    "SRRX Wiring schemas.png",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
@@ -273,8 +273,6 @@
     "01_SRRX-Handbook/SRRX Handbook - Section 3.md",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - paint guide.jpg",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - full rendering.jpg",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Micro-Mark Acrylic mix guide.png",
-    "Pasted image 20260818111535.png",
     "02_Owner's Manual",
     "03_Paint-and-Scenery-Specs-and-Builds/Untitled.canvas",
     "SRRX Handbook",

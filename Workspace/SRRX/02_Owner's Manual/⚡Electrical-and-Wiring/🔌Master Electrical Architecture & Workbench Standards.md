@@ -17,6 +17,8 @@
     - Common Rail B (Black wire) remains continuous and uninterrupted.
     - **Thermal & Component Safety:** The #1003 bulb chokes short-circuit current to $\sim0.94\text{A}$ (12W), preventing melted N-scale Delrin tie strips or spot-welded wheelsets while keeping current well under the CSB1's 5A trip limit.
     - **Self-Resetting Diagnostics:** The illuminated bulb provides an instant visual fault indicator at the benchwork edge and extinguishes automatically when the short clears.
+
+![[SRRX Wiring schemas.jpg]]
 # 3. Wire Gauges & Color Coding Standards
 
 | **Bus / Circuit Tier**     | **Line A / Positive (+)** | **Line B / Negative (-) / Common** | **Conductor Spec**                      | **Notes / Interconnects**                    |
