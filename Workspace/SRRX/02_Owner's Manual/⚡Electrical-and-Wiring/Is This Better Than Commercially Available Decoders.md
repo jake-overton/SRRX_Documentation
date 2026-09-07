@@ -1,0 +1,10 @@
+#### **Q: Does this turnout control panel duplicate commercially available solutions?**
+While commercial turnout decoders exist, virtually none combine your exact architecture: native I2C/Qwiic command integration directly with a DCC-EX CSB1 host** paired with **bipolar H-bridge DC stall-motor drivers** and dedicated, isolated external 12V DC accessory power.
+- **Commercial Stationary DCC Decoders (e.g., NCE Switch-8, Digitrax DS64/DS74):** These listen directly to track DCC packets or proprietary buses (LocoNet, Cab Bus), not raw I2C. They cost significantly more per turnout, siphon power from the track bus (or require proprietary auxiliary taps), and lack the direct VPIN hardware integration that DCC-EX provides via an MCP23017. 
+- **Servo Controllers (PCA9685):** While very popular on I2C for DCC-EX, PCA9685 boards are designed for 3-wire 5V PWM servos, not the reversible 12V bi-directional DC polarity shifts required by stall-motor Tortoise machines.
+- **Solenoid Driver PCBs (CDU / Darlington arrays like ULN2803):** Various community PCBs exist for DCC-EX to throw twin-coil/solenoid turnouts (like Atlas or Peco) using brief capacitive discharge pulses, but they cannot maintain continuous holding/stall polarity for a motor.
+
+This design, chaining **MCP23017 GPIO expanders directly into DRV8833 dual full-bridges** with bridged sleep pads (EEP), is the custom, enthusiast sweet spot for DCC-EX:
+- **Total Command Station Offload:** It uses native I2C VPIN addressing in DCC-EX without needing any intermediate accessory decoders or packet overhead.
+- **Zero Track Power Draw:** All continuous stall current (~15–20 mA per Tortoise) is drawn strictly from a 12V accessory power supply, protecting the 5A CSB1 track budget.
+- **High Density & Low Cost:** 10 turnouts (expandable to 16) controlled via a single sub-panel for a fraction of the cost of commercial equivalents.

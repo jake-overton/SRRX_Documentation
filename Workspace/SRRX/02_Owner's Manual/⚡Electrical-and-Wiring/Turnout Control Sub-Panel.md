@@ -5,7 +5,7 @@ This assembly serves as an intermediate **Turnout Control Sub-Panel** for the la
 This allows for a throttle (Engine Driver, JMRI or others) to control the turnouts in software without having to use toggle switches or manually throw the switch. It also does not rely on track power to run.
 
 Its primary function of the panel is to translate low-voltage digital I2C logic commands into the bi-directional 12V DC polarity shifts required to drive and stall slow-motion turnout motors in either the "Normal" or "Reverse" position.
-
+[[Is This Better Than Commercially Available Decoders]]?
 This is a photo of the final panel. The exposed wires on the board are portected by a plexiglas cover on 2" the standoffs (hardly visible, but there). 
 
 ![[Sub-Panel - final.jpg|750]]
