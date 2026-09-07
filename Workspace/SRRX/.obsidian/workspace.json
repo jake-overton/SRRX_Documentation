@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2f89cac4647728e6",
+        "id": "da45663c362f025b",
         "type": "tabs",
         "children": [
           {
-            "id": "4028fb39afd84177",
+            "id": "eacd32e29d2a1a2f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "SRRX Wiring schemas.jpg"
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "SRRX Wiring schemas"
+              "icon": "lucide-file",
+              "title": "🔌01_Wiring Philosophy"
             }
           }
         ]
@@ -158,6 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,16 +232,20 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "4028fb39afd84177",
+  "active": "eacd32e29d2a1a2f",
   "lastOpenFiles": [
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX 1003 Short Protection Wiring.jpg",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Wiring schemas.jpg",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX 1003 Protection Wiring.pdf",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Wiring schemas.pdf",
     "SRRX Wiring schemas.jpg",
     "SRRX Wiring schemas.png",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/sparky_electronics_master.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V12-wiring.png",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V12 wiring.pdf",
@@ -271,11 +278,7 @@
     "01_SRRX-Handbook/SRRX Handbook - Section 6.md",
     "01_SRRX-Handbook/SRRX Handbook - Section 5.md",
     "01_SRRX-Handbook/SRRX Handbook - Section 3.md",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - paint guide.jpg",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Sears houses - full rendering.jpg",
     "02_Owner's Manual",
-    "03_Paint-and-Scenery-Specs-and-Builds/Untitled.canvas",
-    "SRRX Handbook",
-    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical"
+    "03_Paint-and-Scenery-Specs-and-Builds/Untitled.canvas"
   ]
 }
