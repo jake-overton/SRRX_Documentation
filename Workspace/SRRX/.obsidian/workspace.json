@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "da45663c362f025b",
+        "id": "325303e89e71b096",
         "type": "tabs",
         "children": [
           {
-            "id": "eacd32e29d2a1a2f",
+            "id": "39a62488b4e22dcb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Turnout Control Sub-Panel"
-            }
-          },
-          {
-            "id": "c4487f20e07a724c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png"
-              },
-              "icon": "lucide-image",
-              "title": "Node board schematic"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,13 +228,14 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "c4487f20e07a724c",
+  "active": "39a62488b4e22dcb",
   "lastOpenFiles": [
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Is This Better Than Commercially Available Decoders.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Gem Instructions  - Sparky.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Wiring schemas.jpg",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Is This Better Than Commercially Available Decoders.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
@@ -264,7 +248,6 @@
     "02_Owner's Manual/⚡Electrical-and-Wiring/sparky_electronics_master.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V12-wiring.png",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V12 wiring.pdf",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V11-a wiring.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - in progress.jpg",
     "01_SRRX-Handbook/SRRX Handbook - Foreword.md",
