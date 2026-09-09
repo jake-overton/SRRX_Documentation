@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "325303e89e71b096",
+        "id": "69bb277a53df0525",
         "type": "tabs",
         "children": [
           {
-            "id": "39a62488b4e22dcb",
+            "id": "0c48912567994b1c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "Sub-Panel - final"
             }
           }
         ]
@@ -95,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -180,7 +182,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg"
+              },
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -206,7 +210,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -228,17 +232,24 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "39a62488b4e22dcb",
+  "active": "0c48912567994b1c",
   "lastOpenFiles": [
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
+    "00_Vault Index.md",
+    "02_Owner's Manual/🧑‍🔧Layout-and-Mechanical/Layout Installation Log.md",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Conversation on painting quartets.md",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🖌️ Paint, Finishing & Weathering Reference Manual.md",
+    "Untitled.base",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🖌️ Workbench Master Guide.md",
+    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🚩Flagstop Depot.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Is This Better Than Commercially Available Decoders.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Gem Instructions  - Sparky.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Wiring schemas.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX 1003 Short Protection Wiring.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX 1003 Protection Wiring.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
@@ -254,10 +265,7 @@
     "02_Owner's Manual/⚡Electrical-and-Wiring/~ub-Panel - final.tmp",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg.~tmp",
     "Silver Ridge Railroad V11-a.jpg",
-    "Untitled.base",
     "Pasted image 20260817234051.png",
-    "00_Vault Index.md",
-    "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/🖌️ Workbench Master Guide.md",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/_Gem Instructions  - Professor Paint and Sally Scenery.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railroad V10-wiring.pdf",
     "01_SRRX-Handbook/SRRX Handbook - Section 4.md",
@@ -271,9 +279,6 @@
     "01_SRRX-Handbook/SRRX Handbook - Section 10.md",
     "01_SRRX-Handbook/SRRX Handbook - Section 9.md",
     "01_SRRX-Handbook/SRRX Handbook - Section 8.md",
-    "01_SRRX-Handbook/SRRX Handbook - Section 7.md",
-    "01_SRRX-Handbook/SRRX Handbook - Section 6.md",
-    "01_SRRX-Handbook/SRRX Handbook - Section 5.md",
     "02_Owner's Manual",
     "03_Paint-and-Scenery-Specs-and-Builds/Untitled.canvas"
   ]
