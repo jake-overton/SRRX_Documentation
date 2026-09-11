@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "69bb277a53df0525",
+        "id": "ea049f05e07b7954",
         "type": "tabs",
         "children": [
           {
-            "id": "0c48912567994b1c",
+            "id": "09ba5dd8652acfc7",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "Sub-Panel - final"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -97,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +155,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -182,9 +178,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg"
-              },
+              "state": {},
               "icon": "lucide-info",
               "title": "File properties"
             }
@@ -232,8 +226,9 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "0c48912567994b1c",
+  "active": "09ba5dd8652acfc7",
   "lastOpenFiles": [
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
     "00_Vault Index.md",
@@ -246,7 +241,6 @@
     "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Is This Better Than Commercially Available Decoders.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Gem Instructions  - Sparky.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Wiring schemas.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
@@ -278,7 +272,6 @@
     "01_SRRX-Handbook/SRRX Handbook - Appendix A.md",
     "01_SRRX-Handbook/SRRX Handbook - Section 10.md",
     "01_SRRX-Handbook/SRRX Handbook - Section 9.md",
-    "01_SRRX-Handbook/SRRX Handbook - Section 8.md",
     "02_Owner's Manual",
     "03_Paint-and-Scenery-Specs-and-Builds/Untitled.canvas"
   ]
