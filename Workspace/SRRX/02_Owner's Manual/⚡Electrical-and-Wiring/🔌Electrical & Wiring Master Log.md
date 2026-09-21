@@ -50,17 +50,17 @@ The physical twisted pairs of the CAT5 cable are matched directly to the interna
 Intermediate sub-panel translating I2C commands from the CSB1 host into bi-directional 12V DC polarity for slow-motion Tortoise switch machines, allowing software throttle control (Engine Driver, JMRI, etc.) without toggle switches or track power dependency.
 
 * **Capacity:** 2× MCP23017 16-bit I/O expanders (32 GPIO total) driving 5× DRV8833 dual H-bridge boards (2 Tortoise channels each). Supports up to 16 turnouts at full build-out; 10 initially configured across all 5 driver boards.
-* **I2C Bus Addressing (confirmed):**
-    * Board 1 (main/left): base address **0x20** — no address jumpers bridged.
-    * Board 2 (right): **0x21** once the A0 jumper pad is bridged.
+* **I2C Bus Addressing:**
+    * Board 1 (main/left): base address **0x20** — all address jumpers bridged.
+    * Board 2 (right): **0x21** — A1 and A2 jumper pads are bridged.
 * **Logic Domain (3.3V):** Delivered from the CSB1 via a 4-conductor Qwiic/JST-SH link (3.3V, GND, SDA, SCL). The outer two pins on the MCP23017 breakout headers are unused pads, not active conductors.
     * *Gauge transition:* CSB1-side Qwiic conductors are ~28AWG; panel-side wiring runs ~18AWG. Connected via Dupont connectors.
-* **Motor Domain (12V):** External 12V DC accessory supply landing on the infeed terminal block, daisy-chained to all 5 DRV8833 `VM`/`GND` pins via 24AWG Cat5e core: solid Orange = +12V (VM), Orange/White = common (GND).
-* **Common Ground:** External 12V supply negative, DRV8833 ground bus, and CSB1/MCP logic ground are tied together at the infeed block — single-point reference across the 3.3V logic / 12V driver interface.
+* **Motor Domain (12V):** External 8V DC accessory supply coming from the main 12V accessory bus through a buck board set to 8V, landing on the infeed terminal block, then to the A and B bus lines on a terminal bar. The 5 DRV8833 `VM`/`GND` pins via 28AWG Dupont wires.
+* **Common Ground:** External 8V supply negative, DRV8833 ground bus, and CSB1/MCP logic ground are tied together at the infeed block — single-point reference across the 3.3V logic / 8V driver interface.
 * **DRV8833 Sleep/Enable:** EEP jumper (backside of each DRV8833 board) bridged on all 5 boards to hold drive channels active/non-sleeping.
 * **Logic & Motor Jumpers (MCP → DRV8833 → Terminal Strips):** Dupont ribbon jumpers. Colors are internally consistent per board (same pair used consistently for a given IN/OUT function on that board) but **not** globally consistent across all 5 boards — the ribbon color supply ran short partway through, so some boards substitute Gray/Purple and Blue/Green in place of the standard Brown/Red and Orange/Yellow pairs used elsewhere.
     * ⚠️ Do not assume a color = function mapping holds across boards. Per-board legend below to be completed as each board is finalized.
-Note 9-2-26: I think the best way to run the 12VDC wires out of the panel to the tortoise would be to use the same accessory sub-bus scheme of wiring, orange/orange-white or brown/brown-white 24 AWG CAT5e wires to the tortoise wiring harness block.
+* ⚠️**MCP at 0x20 bad terminals:** In testing, the pins on PB0-PB3 became unstable and would not change when thrown or closed. It is assumed that some dead short in the testing process possibly damaged the pins. These two pairs were rerouted to use PA4-PA7 on the second MCP board at 0x21. Assignments in `myAutomation.h` file were changed to reflect this.
 
 | DRV8833 Board # | Turnouts Driven | IN1–IN4 Colors | OUT1–OUT4 Colors | Notes |
 | :---: | :--- | :--- | :--- | :--- |

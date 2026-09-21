@@ -10,7 +10,6 @@ This is a photo of the ***first*** final panel. The exposed wires on the board a
 
 - Note: this configuration changed after testing. Some output ports on three locations did not provide the proper voltages, and were switched to three pairs of pins from the available 10 that were not configured. Final configuration to be determined (Sept 14 2026).
 
-![[Sub-Panel - final.jpg|750]]
 
 This is a picture of the schematic for wiring. ![[Node board schematic.png]]
 
