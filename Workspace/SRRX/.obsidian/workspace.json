@@ -11,12 +11,14 @@
             "id": "f39b9591419da191",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png"
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Chapter 04 - Infrastructure.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Node board schematic"
+              "icon": "lucide-file",
+              "title": "Chapter 04 - Infrastructure"
             }
           }
         ]
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Chapter 04 - Infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -233,15 +235,16 @@
   },
   "active": "f39b9591419da191",
   "lastOpenFiles": [
+    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Chapter 04 - Infrastructure.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Gem Instructions  - Sparky.md",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Turnout Control Sub-Panel.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Is This Better Than Commercially Available Decoders.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Master Electrical Architecture & Workbench Standards.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌Electrical & Wiring Master Log.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Node board schematic.png",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Sub-Panel - final.jpg",
     "02_Owner's Manual/🎨Paint-and-Scenery-Specs-and-Builds/Conversation on painting quartets.md",
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Gem Instructions  - Sparky.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX 1003 Short Protection Wiring.jpg",
     "02_Owner's Manual/⚡Electrical-and-Wiring/sparky_electronics_master.md",
