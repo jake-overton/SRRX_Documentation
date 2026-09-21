@@ -48,8 +48,10 @@ Rather than investing in costly electronic breakers (e.g., NCE EB1), the layout 
 | **Diagnostics**       | Blinding / Excessive Heat | Bright (12W)               | Instantly illuminates under the fascia to show the shorted zone; self-resets when cleared.                                      |     |
 
 
-Main DCC Bus (14 AWG Red) ───[Barrier Strip Pos 8]─── (#1003 Bulb) ───[Pos 7]─── Protected Zone Rail A Main DCC Bus (14 AWG Black) ─[Barrier Strip Pos 5]─── [Jumper Loop] ───[Pos 6]─── Protected Zone Rail B
+**Wiring Path Detail (Terminal Strip Positions 5–8):**
 
+ - **Rail A (Hot):** Main Bus (14 AWG Red) $\rightarrow$ Pos 8 $\rightarrow$ (#1003 Bulb) $\rightarrow$ Pos 7 $\rightarrow$ Protected Rail A Feed     
+ - **Rail B (Common):** Main Bus (14 AWG Black) $\rightarrow$ Pos 5 $\rightarrow$ [Jumper Loop] $\rightarrow$ Pos 6 $\rightarrow$ Protected Rail B Feed
 
 ![[SRRX 1003 Short Protection Wiring.jpg]] 
 * **Audible Auxiliary Warning (Future Provision):** Light-Dependent Resistor (LDR) sensor boards positioned across from each #1003 lamp will trigger a shared piezo buzzer under the benchwork when any lamp strikes, providing an audible alarm without drawing on track power. ### 4.3.2 Protection Zone Map Both rails are gapped with insulated joiners at all zone boundaries. 
