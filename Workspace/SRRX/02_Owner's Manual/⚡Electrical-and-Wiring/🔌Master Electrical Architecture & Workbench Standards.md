@@ -57,10 +57,11 @@ Configured via DCC-EX TrackManager for initial layout construction, track-testin
 - **The Accessory Switch Node (Bench-Built Chassis):**
     - **1× I2C Bus Trunk:** 4-wire shielded cable (3.3V, GND, SDA, SCL) connects the CSB1's Qwiic/STEMMA QT port to the yard node.
     - **2× MCP23017 16-bit I/O Expanders:**
-        - _Board 1:_ Address `0x20` (default) $\rightarrow$ DCC-EX VPINs 100–115 (drives Turnouts 1–8).
-        - _Board 2:_ Address `0x21` ($A0$ pad bridged) $\rightarrow$ DCC-EX VPINs 116–131 (drives Turnouts 9–10 + expansion).
+        - _Board 1:_ Address `0x20` (All address pins bridged) $\rightarrow$ DCC-EX VPINs 164–179 (drives Turnouts 1–8).
+	        - NOTE: pins PB0-PB3 on this board do not seem to work, so Turnouts 5 and 6 are rerouted to VPINs 184-187
+        - _Board 2:_ Address `0x21` ($A1, A2$ pad bridged, $A0\ open$) $\rightarrow$ DCC-EX VPINs 180–184 (drives Turnouts 9–10 + expansion).
     - **5× DRV8833 Dual H-Bridge Drivers (from 8-pack):**
-        - Each DRV8833 drives **2 independent Tortoises** on continuous $12\text{VDC}$ polarity-reversed stall current ($\sim16\text{ mA}$ each).
+        - Each DRV8833 drives **2 independent Tortoises** on continuous $8\text{VDC}$ polarity-reversed stall current ($\sim16\text{ mA}$ each).
         - **`J2` Solder Pad:** Bridged with solder on the back of each board to pull `EEP` (Sleep/Enable) HIGH permanently.
         - **Pins `IN1`/`IN2` & `IN3`/`IN4`:** Receive 3.3V logic signals from MCP23017 outputs.
         - **Pins `OUT1`/`OUT2` & `OUT3`/`OUT4`:** Connect directly to Tortoise Pins 1 & 8.

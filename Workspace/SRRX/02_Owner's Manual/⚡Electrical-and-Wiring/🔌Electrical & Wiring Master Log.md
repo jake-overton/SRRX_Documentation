@@ -47,7 +47,7 @@ The physical twisted pairs of the CAT5 cable are matched directly to the interna
 ---
 
 ## 4. Turnout Control Sub-Panel (CSB1 / MCP23017 / DRV8833)
-Intermediate sub-panel translating I2C commands from the CSB1 host into bi-directional 12V DC polarity for slow-motion Tortoise switch machines, allowing software throttle control (Engine Driver, JMRI, etc.) without toggle switches or track power dependency.
+Intermediate sub-panel translating I2C commands from the CSB1 host into bi-directional 8VDC polarity for slow-motion Tortoise switch machines, allowing software throttle control (Engine Driver, JMRI, etc.) without toggle switches or track power dependency. See [[Turnout Control Sub-Panel]].
 
 * **Capacity:** 2× MCP23017 16-bit I/O expanders (32 GPIO total) driving 5× DRV8833 dual H-bridge boards (2 Tortoise channels each). Supports up to 16 turnouts at full build-out; 10 initially configured across all 5 driver boards.
 * **I2C Bus Addressing:**
