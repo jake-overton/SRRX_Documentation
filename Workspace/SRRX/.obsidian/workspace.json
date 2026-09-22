@@ -33,8 +33,7 @@
               "title": "SRRX Owner's Manual v1.0"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
+                "file": "02_Owner's Manual/⚡Electrical-and-Wiring/Chapter 04 - Infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -246,10 +245,10 @@
       "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "f39b9591419da191",
+  "active": "ccc58db51c18f5a3",
   "lastOpenFiles": [
-    "02_Owner's Manual/⚡Electrical-and-Wiring/Chapter 04 - Infrastructure.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/SRRX Owner's Manual v1.0.pdf",
+    "02_Owner's Manual/⚡Electrical-and-Wiring/Chapter 04 - Infrastructure.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/🔌01_Wiring Philosophy.md",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V12 wiring.pdf",
     "02_Owner's Manual/⚡Electrical-and-Wiring/Silver Ridge Railway V12-wiring.png",

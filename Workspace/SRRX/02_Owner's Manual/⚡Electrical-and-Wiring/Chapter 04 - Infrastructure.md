@@ -10,22 +10,19 @@ The Silver Ridge Railroad (SRRX) electrical infrastructure is engineered around 
 ---
 
 ## 4.2 Power Distribution Architecture
-
 ### 4.2.1 Command Station & Track Bus (DCC)
-* **DCC-EX CSB1 Station:** Delivers up to 5.0A global track capacity.
+* **DCC-EX CSB1 Station:** The SRRX operates on a single DCC power district fed by the CSB1 command station. No additional power booster is installed or planned.
 * **Master 4-Fuse Protection:** To protect the internal H-bridge driver of the CSB1 during DC-PWM locomotive testing, polarity transitions, and cross-track faults, all four output terminals (`-A`, `+A`, `-B`, `+B`) have inline **5A fast-acting fuses** installed immediately at the chassis.
 * **Main Track Bus:** 14 AWG stranded parallel zip wire (Red = Rail A / Hot; Black = Rail B / Common).
 * **Track Feeders:** 22 AWG solid-core wire (Blue = Rail A, White = Rail B) dropped every 3–6 feet and at every spur lead.
 * **Physical Separation:** The 14 AWG DCC track bus is routed strictly along the **south side** of the L-girder web to eliminate inductive noise coupling into DC lines.
-
 ### 4.2.2 12V DC Accessory Bus & Regulated Sub-Buses
 * **Primary Source:** Dedicated 12V DC, 3A switching wall adapter terminating into 2.1mm × 5.5mm screw-terminal barrel jacks.
 * **Main Accessory Bus:** 14 AWG flexible silicone wire (Yellow = `+12V`, White = `-12V Common`), routed strictly along the **north side** of the L-girder web.
 * **Voltage Regulation Tiers:**
-  * **8.0V DC (Turnout Motor Bus):** Stepped down from 12V via an LM2596 buck converter to supply the DRV8833 turnout driver panel. Running Tortoise motors at 8V provides quiet, prototypical slow-motion movement and prevents continuous stall heat buildup.
+  * **8.0V DC (Turnout Motor Bus):** Stepped down from 12V via an LM2596 buck converter to supply the  turnout driver panel. Running Tortoise motors at 8V provides quiet, prototypical slow-motion movement and prevents continuous stall heat buildup.
   * **5.0V / 3.3V DC (Lighting Sub-Buses):** Local buck converters tap the 12V bus via insulation-displacement T-taps to feed LED street lamps, crossing signals, and interior building lighting.
 * **Diagnostic Monitoring:** Eight (8) digital voltmeter displays (2 each of 4 colors) are mounted on the fascia to track DC voltage health across sectors.
-
 ### 4.2.3 Structure Quick-Disconnect Protocol
 To eliminate under-table soldering when moving buildings or maintaining scenery:
 * Structural interior LEDs use 32 AWG enameled magnet wire (Copper = Anode `+`; Silver/Tinned = Cathode `-`).
