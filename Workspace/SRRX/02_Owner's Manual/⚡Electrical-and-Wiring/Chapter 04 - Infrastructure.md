@@ -1,7 +1,7 @@
 # Chapter 4: Electrical Distribution & Turnout Infrastructure
 
 ## 4.1 System Overview & Philosophy
-The Silver Ridge Railroad (SRRX) electrical infrastructure is engineered around a single core tenet: solve the problems this specific mountain-division layout actually has, rather than designing for multi-operator club complexity.
+The Silver Ridge Railroad (SRRX) electrical infrastructure is engineered around a single core principle: solve the problems the railroad actually has, not the problems a larger or more complex operation might have. Every decision documented here follows from that principle. 
 
 * **Single Command Authority:** A single DCC-EX CSB1 command station (5A capacity) powers the entire railroad. N-scale current draw across realistic operations (4–5 simultaneous locomotives) does not warrant secondary boosters or complex booster power districts.
 * **Passive Local Short Isolation:** Track faults are isolated using passive automotive dome lamps, protecting N-scale rolling stock and preventing track faults from shutting down the global command station.
