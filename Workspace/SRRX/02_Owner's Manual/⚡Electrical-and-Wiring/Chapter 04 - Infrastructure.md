@@ -92,19 +92,19 @@ The SRRX utilizes a bench-built solid-state interface coupling **MCP23017 I/O ex
 * ### 4.4.3 Pin Mapping & Dead-Terminal Remap Register 
 * ⚠️ **Hardware Exception:** During bench commissioning, pins **PB0–PB3 on Board 1 (`0x20`)** were damaged by a transient short and rendered inoperative. These two channels were permanently remapped in `myAutomation.h` to pins **PA4–PA7 on Board 2 (`0x21`)**. 
  
-| Turnout | MCP Address | GPIO Pins Used | Driver Board | Channel Output | Wiring / Field Location |
-| :---: | :---: | :---: | :---: | :---: | :--- |
-| **#1** | `0x20` | PA0 / PA1 | DRV8833 #1 | OUT1 / OUT2 | PVJ Yard Lead |
-| **#2** | `0x20` | PA2 / PA3 | DRV8833 #1 | OUT3 / OUT4 | PVJ Yard Track 1 |
-| **#3** | `0x20` | PA4 / PA5 | DRV8833 #2 | OUT1 / OUT2 | PVJ Yard Track 2 |
-| **#4** | `0x20` | PA6 / PA7 | DRV8833 #2 | OUT3 / OUT4 | Helper Pocket |
-| **#5** | `0x20` | PB4 / PB5 | DRV8833 #3 | OUT1 / OUT2 | Industrial Lead A |
-| **#6** | `0x20` | PB6 / PB7 | DRV8833 #3 | OUT3 / OUT4 | Industrial Lead B |
-| **#7** | `0x21` | PA0 / PA1 | DRV8833 #4 | OUT1 / OUT2 | Mainline Crossover North |
-| **#8** | `0x21` | PA2 / PA3 | DRV8833 #4 | OUT3 / OUT4 | Mainline Crossover South |
-| **#9** | `0x21` | **PA4 / PA5** *(Remapped)* | DRV8833 #5 | OUT1 / OUT2 | PVJ RIP Spur |
-| **#10**| `0x21` | **PA6 / PA7** *(Remapped)* | DRV8833 #5 | OUT3 / OUT4 | Team Track |
-| *DEAD* | `0x20` | **PB0, PB1, PB2, PB3** | *RETIRED* | *DO NOT CONNECT* | *Floating / Inoperative* |
+| Turnout | MCP Address |       GPIO Pins Used       | Driver Board |  Channel Output  | Wiring / Field Location  |
+| :-----: | :---------: | :------------------------: | :----------: | :--------------: | :----------------------- |
+| **#1**  |   `0x20`    |         PA0 / PA1          |  DRV8833 #1  |   OUT1 / OUT2    | PVJ Yard Lead            |
+| **#2**  |   `0x20`    |         PA2 / PA3          |  DRV8833 #1  |   OUT3 / OUT4    | PVJ Yard Track 1         |
+| **#3**  |   `0x20`    |         PA4 / PA5          |  DRV8833 #2  |   OUT1 / OUT2    | PVJ Yard Track 2         |
+| **#4**  |   `0x20`    |         PA6 / PA7          |  DRV8833 #2  |   OUT3 / OUT4    | Helper Pocket            |
+| **#5**  |   `0x20`    |         PB4 / PB5          |  DRV8833 #3  |   OUT1 / OUT2    | Industrial Lead A        |
+| **#6**  |   `0x20`    |         PB6 / PB7          |  DRV8833 #3  |   OUT3 / OUT4    | Industrial Lead B        |
+| **#7**  |   `0x21`    |         PA0 / PA1          |  DRV8833 #4  |   OUT1 / OUT2    | Mainline Crossover North |
+| **#8**  |   `0x21`    |         PA2 / PA3          |  DRV8833 #4  |   OUT3 / OUT4    | Mainline Crossover South |
+| **#9**  |   `0x21`    | **PA4 / PA5** *(Remapped)* |  DRV8833 #5  |   OUT1 / OUT2    | PVJ RIP Spur             |
+| **#10** |   `0x21`    | **PA6 / PA7** *(Remapped)* |  DRV8833 #5  |   OUT3 / OUT4    | Team Track               |
+| *DEAD*  |   `0x20`    |   **PB0, PB1, PB2, PB3**   |  *RETIRED*   | *DO NOT CONNECT* | *Floating / Inoperative* |
 
 ---
 ## 4.5 Tortoise Switch Machine & Turnout Standards 
