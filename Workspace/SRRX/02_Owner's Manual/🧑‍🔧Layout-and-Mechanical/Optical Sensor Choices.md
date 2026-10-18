@@ -1,0 +1,28 @@
+### Comparison of Optical Detection Methods
+
+| **Sensor Configuration**                          | **Typical Components**                                                 | **Mounting Location**                                                           | **Ambient Light Immunity**                                         | **Pros**                                                                                                    | **Cons / Constraints**                                                                         |
+| ------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Diffuse Reflective (Unmodulated IR)**           | LM393 module + 3mm/5mm IR pair                                         | Between ties, aimed vertically upward                                           | Low to Moderate (fluorescent/sunlight can saturate photodiode)     | Simple single-point mounting; low unit cost; direct binary TTL output                                       | Reflectivity varies with car underbody color/finish; gaps between cars drop signal briefly     |
+| **Modulated Reflective IR (38 kHz)**              | Vishay TSSP4038 / TSOP38238 + 940nm IR LED                             | Under roadbed looking up, or trackside disguised as line-side clutter           | High (filters out continuous ambient & 60/120 Hz artificial light) | Extremely robust against changing room light; high signal-to-noise ratio                                    | Requires a 38 kHz carrier frequency (generated via 555 timer or microcontroller PWM pin)       |
+| **Through-Beam (Cross-Track IR)**                 | Matched 940nm IR emitter & phototransistor                             | Trackside across rails (e.g., relay cabinets, shanties, or culverts)            | Moderate to High (beam is contained/shielded)                      | Does not depend on underbody reflectivity; detects wheels, trucks, and body silhouettes                     | Requires line-of-sight alignment across track; beam can peek through empty flats/open hoppers  |
+| **Passive Ambient Light (Phototransistor / LDR)** | Miniature phototransistor (e.g., TEPT4400) or CdS cell                 | Flush between ties looking straight up                                          | Low (depends strictly on room light being blocked)                 | Invisible 2-3mm profile between ties; zero active emitter wiring at the track                               | Requires consistent layout overhead lighting; useless in low-light/night operation modes       |
+| **Fiber Optic Remote Sensing**                    | 0.75mm–1.0mm unjacketed plastic optical fiber (POF) to remote IR board | Fiber heads drilled into ties; emitter/receiver circuit mounted under benchwork | High (light pipe isolates field of view; can use modulated IR)     | Smallest physical footprint on the railbed (looks like a spike head or bolt); electronics remain accessible | Requires careful routing to prevent tight fiber bend radii (losses increase under 15mm radius) |
+
+### Electrical & Operational Trade-offs
+
+1. **Unmodulated IR Modules (LM393 Comparator Type):**
+    - **Behavior:** Readily available and directly drive digital inputs with an onboard threshold potentiometer.
+    - **Physics Consideration:** Overhead fluorescent tubes and varying room lighting often trigger false negatives or pull comparator inputs low intermittently. Masking the photodiode with heat-shrink tubing creates a directional collimator, narrowing the optical field of view to the rail profile directly overhead.
+2. **Modulated 38 kHz Infrared:**
+	 - **Behavior:** Pulsing the IR LED at 38 kHz and reading through an integrated receiver (such as the TSSP4038) rejects DC and low-frequency light entirely.
+    - **Implementation:** An ATmega328P hardware timer (e.g., Timer 1 or 2) can generate a continuous 38 kHz PWM carrier with near-zero CPU load, making it the most stable optical method under variable layout room illumination.
+3. **Inter-Car Gaps & Software Debounce:**
+    - Regardless of whether through-beam or upward reflection is chosen, coupler gaps and varied underbody heights cause rapid toggling (chatter) as a train passes.
+    - Optical inputs require a software **off-delay timer (latch)** or hardware retriggerable monostable multivibrator (e.g., 500 ms to 1500 ms hold time) to maintain contiguous block occupancy until the end-of-train clears the detection zone.
+### Concrete Implementation Checklist
+1. **Verify Line of Sight vs. Roadbed Depth:**
+    - If installing 3mm/5mm LEDs directly between ties, drill paired holes angled slightly inward (10° to 15°) toward the track centerline to intersect the bottom of passing trucks without catching wheel flanges.
+2. **Shielding:**
+    - Slide opaque matte black heat-shrink tubing over the phototransistor sides, leaving only the top dome exposed to block lateral light scatter.
+3. **Interrupt vs. Polling Routing:**
+    - If routing multiple detection points into a single microcontroller, dedicate hardware external interrupt pins (`INT0`/`INT1`) to boundary-crossing entry/exit trigger pairs, or consolidate block inputs via pin-change interrupts (`PCINT`) / I2C expanders handled in a non-blocking `millis()` loop.
